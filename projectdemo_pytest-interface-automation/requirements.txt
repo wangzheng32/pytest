@@ -1,0 +1,9 @@
+pytest~=6.2.4
+pytest-xdist
+pytest-ordering
+pytest-rerunfailures
+pytest-html
+allure-pytest
+requests~=2.25.1
+PyYAML~=5.4.1
+jsonpath~=0.82
