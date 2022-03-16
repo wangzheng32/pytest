@@ -1,13 +1,11 @@
-import json,pytest,requests
-
+import json, pytest, requests
 import allure
-
 from common import yaml_until
 from common.api_key import ApiKey
 
-
 # 实例化已封装的接口调用
 ak = ApiKey()
+
 
 @allure.feature("登录 或 退出登录")
 @allure.story("登录/获取token")
@@ -15,8 +13,8 @@ ak = ApiKey()
 # @pytest.mark.login
 # 参数化：@pytest.mark.parametrize()
 # @pytest.mark.parametrize("data", YamlUntil("./data/interface_data.yaml").read_yaml())
-@pytest.mark.parametrize('data', yaml_until.load_yaml("./data/interface_data.yaml"))
 # @pytest.fixture()
+@pytest.mark.parametrize('data', yaml_until.load_yaml("./data/Yaml/interface_data.yaml"))
 def test_01_login(data):
     """
     用例描述：登录接口/获取token
@@ -30,7 +28,7 @@ def test_01_login(data):
     # res = requests.post(url=url, params=vale, headers=headers)
     # print(res.text)
 
-    #请求
+    # 请求
     request = data['request']
     url = request['url']
     vales = request["params"]
@@ -45,7 +43,7 @@ def test_01_login(data):
     try:
         # 接口关联，将token保存到全局变量管理文件中
         # extract_data = {"token":vales_json['access_token']}
-        extract_data = {"token":vales_token}
+        extract_data = {"token": vales_token}
         yaml_until.wite_yaml(extract_data)
         print(yaml_until.read_extract_yaml("token"))
     except:

@@ -9,7 +9,7 @@ ak = ApiKey()
 @allure.feature("关于人员信息的接口")
 @allure.story("查询人员档案")
 # @pytest.mark.parametrize('data', YamlUntil("./data/interface_Project_query.yaml").read_yaml())
-@pytest.mark.parametrize('data', yaml_until.load_yaml("./data/interface_Project_query.yaml"))
+@pytest.mark.parametrize('data', yaml_until.load_yaml("./data/Yaml/interface_Project_query.yaml"))
 def test_personnel_query(data):
     """
     用例描述：查询人员档案
