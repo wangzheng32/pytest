@@ -1,0 +1,15 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 16 17:40:07 CST 2022","Wed Mar 16 17:40:07 CST 2022","41","interface_testcase","test_Personnel_query","","","","test_personnel_query[data0]","
+    用例描述：查询人员档案
+    :param data:
+    :return:
+    "
+"passed","Wed Mar 16 17:40:07 CST 2022","Wed Mar 16 17:40:07 CST 2022","0","interface_testcase","test_login","","","","test_loginout","
+    用例描述：退出登录
+    :return:
+    "
+"passed","Wed Mar 16 17:40:07 CST 2022","Wed Mar 16 17:40:07 CST 2022","141","interface_testcase","test_login","","","","test_01_login[data0]","
+    用例描述：登录接口/获取token
+    :param data:
+    :return:
+    "

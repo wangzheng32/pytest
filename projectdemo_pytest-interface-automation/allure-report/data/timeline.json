@@ -1,0 +1,119 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PC-wz",
+    "children" : [ {
+      "name" : "22488-MainThread",
+      "children" : [ {
+        "name" : "test_01_login[data0]",
+        "uid" : "9dcdd0babefc6c69",
+        "parentUid" : "8bc9204c1b2ed45a9bfa166d0d47b08f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647423218062,
+          "stop" : 1647423218201,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://123.60.88.124/prod-api/auth/user/login', 'method': 'post', 'params': {'username': 'admin', 'password': 123456, 'grant_type': 'password'}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Basic b2E6MTIzNDU2'}}, 'eq': 'None'}" ]
+      }, {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "d03fac115f2a32d",
+        "parentUid" : "8bc9204c1b2ed45a9bfa166d0d47b08f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647423218214,
+          "stop" : 1647423218246,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'request': {'url': 'http://123.60.88.124/prod-api/oa/personnel_files/list', 'method': 'get', 'params': {'pageNum': 1, 'pageSize': 10}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer', 'Cookie': 'Admin-Token='}}, 'eq': {'code': 200, 'msg': '查询成功'}}" ]
+      }, {
+        "name" : "test_loginout",
+        "uid" : "e88f694e406ac1ea",
+        "parentUid" : "8bc9204c1b2ed45a9bfa166d0d47b08f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647423218246,
+          "stop" : 1647423218246,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8bc9204c1b2ed45a9bfa166d0d47b08f"
+    }, {
+      "name" : "9916-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "b563557ed2dfc623",
+        "parentUid" : "b448674bf5ebda0f47b517033b2bdd7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647423607893,
+          "stop" : 1647423607934,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'request': {'url': 'http://123.60.88.124/prod-api/oa/personnel_files/list', 'method': 'get', 'params': {'pageNum': 1, 'pageSize': 10}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer', 'Cookie': 'Admin-Token='}}, 'eq': {'code': 200, 'msg': '查询成功'}}" ]
+      }, {
+        "name" : "test_loginout",
+        "uid" : "c85663cec65635ce",
+        "parentUid" : "b448674bf5ebda0f47b517033b2bdd7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647423607934,
+          "stop" : 1647423607934,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01_login[data0]",
+        "uid" : "8f508d558b3c01c2",
+        "parentUid" : "b448674bf5ebda0f47b517033b2bdd7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647423607752,
+          "stop" : 1647423607893,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://123.60.88.124/prod-api/auth/user/login', 'method': 'post', 'params': {'username': 'admin', 'password': 123456, 'grant_type': 'password'}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Basic b2E6MTIzNDU2'}}, 'eq': 'None'}" ]
+      } ],
+      "uid" : "b448674bf5ebda0f47b517033b2bdd7f"
+    } ],
+    "uid" : "da22b56f0e47a91ab3f1c711dfbee3ad"
+  } ]
+}

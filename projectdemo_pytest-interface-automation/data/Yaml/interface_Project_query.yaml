@@ -1,0 +1,14 @@
+-
+  request:
+    url: http://123.60.88.124/prod-api/oa/personnel_files/list
+    method: get
+    params:
+      pageNum: 1
+      pageSize: 10
+    headers:
+      Content-Type: application/json
+      Authorization: Bearer
+      Cookie: Admin-Token=
+  eq:
+    code: 200
+    msg: 查询成功

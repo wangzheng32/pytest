@@ -1,0 +1,76 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录 或 退出登录",
+    "children" : [ {
+      "name" : "登录/获取token",
+      "children" : [ {
+        "name" : "test_01_login[data0]",
+        "uid" : "8f508d558b3c01c2",
+        "parentUid" : "89c0a426a3ebaad19572e41e0d3061f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647423607752,
+          "stop" : 1647423607893,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://123.60.88.124/prod-api/auth/user/login', 'method': 'post', 'params': {'username': 'admin', 'password': 123456, 'grant_type': 'password'}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Basic b2E6MTIzNDU2'}}, 'eq': 'None'}" ]
+      } ],
+      "uid" : "89c0a426a3ebaad19572e41e0d3061f7"
+    }, {
+      "name" : "退出登录",
+      "children" : [ {
+        "name" : "test_loginout",
+        "uid" : "c85663cec65635ce",
+        "parentUid" : "6ac4ea2e0407e0b1c88f2a081d7b0457",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647423607934,
+          "stop" : 1647423607934,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ac4ea2e0407e0b1c88f2a081d7b0457"
+    } ],
+    "uid" : "3cde77d60dfb5653cfae613c647211ec"
+  }, {
+    "name" : "关于人员信息的接口",
+    "children" : [ {
+      "name" : "查询人员档案",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "b563557ed2dfc623",
+        "parentUid" : "14a8834243ddd778f16559a264955bf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647423607893,
+          "stop" : 1647423607934,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'request': {'url': 'http://123.60.88.124/prod-api/oa/personnel_files/list', 'method': 'get', 'params': {'pageNum': 1, 'pageSize': 10}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer', 'Cookie': 'Admin-Token='}}, 'eq': {'code': 200, 'msg': '查询成功'}}" ]
+      } ],
+      "uid" : "14a8834243ddd778f16559a264955bf8"
+    } ],
+    "uid" : "920f0ba4d4e9bdd536a0136dc12807a2"
+  } ]
+}

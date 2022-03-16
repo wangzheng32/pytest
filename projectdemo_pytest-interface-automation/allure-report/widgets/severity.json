@@ -1,0 +1,31 @@
+[ {
+  "uid" : "8f508d558b3c01c2",
+  "name" : "test_01_login[data0]",
+  "time" : {
+    "start" : 1647423607752,
+    "stop" : 1647423607893,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c85663cec65635ce",
+  "name" : "test_loginout",
+  "time" : {
+    "start" : 1647423607934,
+    "stop" : 1647423607934,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b563557ed2dfc623",
+  "name" : "test_personnel_query[data0]",
+  "time" : {
+    "start" : 1647423607893,
+    "stop" : 1647423607934,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
