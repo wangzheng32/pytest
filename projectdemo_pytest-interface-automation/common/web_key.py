@@ -1,14 +1,14 @@
 """
     selenium常用关键字封装
-        元素定位    locator > name, value
-        点击       click   > name, value
-        输入       input   > name, value, txt
-        访问url    open    > txt
+        元素定位    locator >      name, value
+        点击       click   >      name, value
+        输入       input   >      name, value, txt
+        访问url    open    >      txt
         关闭浏览器  quit
-        强制等待    sleep   > txt
+        强制等待    sleep   >      txt
+        断言       assert_txt  >  name, value, txt
 """
-from time import sleep
-
+import time
 from selenium import webdriver
 
 
@@ -56,4 +56,10 @@ class Key:
 
     # 强制等待
     def sleep(self, txt):
-        sleep(txt)
+        time.sleep(txt)
+
+    # 断言
+    def assert_txt(self, name, value, txt):
+        at = self.locator(name, value)
+        et = "实际结果与预期结果:{}不同".format(value)
+        assert (at.text == txt), et

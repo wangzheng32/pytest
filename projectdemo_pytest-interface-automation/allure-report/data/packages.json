@@ -7,36 +7,36 @@
       "name" : "test_login",
       "children" : [ {
         "name" : "test_01_login[data0]",
-        "uid" : "8f508d558b3c01c2",
+        "uid" : "7b4dcdaa4b8f30d4",
         "parentUid" : "54d9d0606415889ccad8197a20f9dd5d",
         "status" : "passed",
         "time" : {
-          "start" : 1647423607752,
-          "stop" : 1647423607893,
-          "duration" : 141
+          "start" : 1647530138287,
+          "stop" : 1647530138425,
+          "duration" : 138
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 27,
         "retriesStatusChange" : false,
         "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://123.60.88.124/prod-api/auth/user/login', 'method': 'post', 'params': {'username': 'admin', 'password': 123456, 'grant_type': 'password'}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Basic b2E6MTIzNDU2'}}, 'eq': 'None'}" ]
       }, {
         "name" : "test_loginout",
-        "uid" : "c85663cec65635ce",
+        "uid" : "322df23547a1fad4",
         "parentUid" : "54d9d0606415889ccad8197a20f9dd5d",
         "status" : "passed",
         "time" : {
-          "start" : 1647423607934,
-          "stop" : 1647423607934,
+          "start" : 1647530138472,
+          "stop" : 1647530138472,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 27,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
@@ -45,24 +45,45 @@
       "name" : "test_Personnel_query",
       "children" : [ {
         "name" : "test_personnel_query[data0]",
-        "uid" : "b563557ed2dfc623",
+        "uid" : "852aa6b668bc0c71",
         "parentUid" : "e3040071d8c9a4c0b6b29ae2651a3231",
         "status" : "passed",
         "time" : {
-          "start" : 1647423607893,
-          "stop" : 1647423607934,
-          "duration" : 41
+          "start" : 1647530138425,
+          "stop" : 1647530138456,
+          "duration" : 31
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 1,
+        "retriesCount" : 27,
         "retriesStatusChange" : false,
         "parameters" : [ "{'request': {'url': 'http://123.60.88.124/prod-api/oa/personnel_files/list', 'method': 'get', 'params': {'pageNum': 1, 'pageSize': 10}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer', 'Cookie': 'Admin-Token='}}, 'eq': {'code': 200, 'msg': '查询成功'}}" ]
       } ],
       "uid" : "e3040071d8c9a4c0b6b29ae2651a3231"
     } ],
     "uid" : "9025e770a9c73fd89b935610bf70fbf7"
+  }, {
+    "name" : "webui_testcase.test_demo1",
+    "children" : [ {
+      "name" : "test_baidu",
+      "uid" : "1707db6728592c1a",
+      "parentUid" : "80251945a5f775c9763b2f04638e22b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647530138472,
+        "stop" : 1647530149338,
+        "duration" : 10866
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 26,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "webui_testcase.test_demo1"
   } ]
 }
