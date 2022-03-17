@@ -1,6 +1,17 @@
 {
-  "total" : 3,
+  "total" : 9,
   "items" : [ {
+    "uid" : "920f0ba4d4e9bdd536a0136dc12807a2",
+    "name" : "关于人员信息的接口",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "3cde77d60dfb5653cfae613c647211ec",
     "name" : "登录 或 退出登录",
     "statistic" : {
@@ -10,17 +21,6 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
-    }
-  }, {
-    "uid" : "920f0ba4d4e9bdd536a0136dc12807a2",
-    "name" : "关于人员信息的接口",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
     }
   } ]
 }

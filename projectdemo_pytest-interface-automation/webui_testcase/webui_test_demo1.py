@@ -11,6 +11,16 @@ from common import excel_driver
 # key.sleep(5)
 # key.quit()
 
-def test_baidu():
+def test_login():
+    data = excel_driver.read_excel("./data/Excel/webui_data_demo1.xlsx")
+    excel_driver.implement_case(data)
+
+
+def test_login1():
+    data = excel_driver.read_excel("./data/Excel/webui_data_demo1.xlsx")
+    excel_driver.implement_case(data)
+
+
+def test_login2():
     data = excel_driver.read_excel("./data/Excel/webui_data_demo1.xlsx")
     excel_driver.implement_case(data)

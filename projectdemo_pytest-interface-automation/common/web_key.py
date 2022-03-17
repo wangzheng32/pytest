@@ -63,3 +63,7 @@ class Key:
         at = self.locator(name, value)
         et = "实际结果与预期结果:{}不同".format(value)
         assert (at.text == txt), et
+
+    # 当前页面
+    def sreach_(self):
+        self.driver.current_window_handle

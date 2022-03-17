@@ -1,16 +1,22 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Mar 17 23:15:38 CST 2022","Thu Mar 17 23:15:38 CST 2022","138","interface_testcase","test_login","","","","test_01_login[data0]","
-    用例描述：登录接口/获取token
-    :param data:
-    :return:
-    "
-"passed","Thu Mar 17 23:15:38 CST 2022","Thu Mar 17 23:15:38 CST 2022","31","interface_testcase","test_Personnel_query","","","","test_personnel_query[data0]","
+"passed","Thu Mar 17 23:34:55 CST 2022","Thu Mar 17 23:35:06 CST 2022","10651","webui_testcase","webui_test_demo1","","","","test_login2",""
+"passed","Thu Mar 17 23:31:31 CST 2022","Thu Mar 17 23:31:41 CST 2022","10697","webui_testcase","test_demo1","","","","test_login2",""
+"broken","Thu Mar 17 23:31:20 CST 2022","Thu Mar 17 23:31:20 CST 2022","0","interface_testcase","test_Personnel_query","","","","test_personnel_query[data0]","
     用例描述：查询人员档案
     :param data:
     :return:
     "
-"passed","Thu Mar 17 23:15:38 CST 2022","Thu Mar 17 23:15:38 CST 2022","0","interface_testcase","test_login","","","","test_loginout","
+"passed","Thu Mar 17 23:31:20 CST 2022","Thu Mar 17 23:31:20 CST 2022","0","interface_testcase","test_login","","","","test_loginout","
     用例描述：退出登录
     :return:
     "
+"passed","Thu Mar 17 23:34:44 CST 2022","Thu Mar 17 23:34:55 CST 2022","10674","webui_testcase","webui_test_demo1","","","","test_login",""
+"passed","Thu Mar 17 23:34:44 CST 2022","Thu Mar 17 23:34:55 CST 2022","10706","webui_testcase","webui_test_demo1","","","","test_login1",""
+"passed","Thu Mar 17 23:31:20 CST 2022","Thu Mar 17 23:31:31 CST 2022","10802","webui_testcase","test_demo1","","","","test_login1",""
+"passed","Thu Mar 17 23:31:20 CST 2022","Thu Mar 17 23:31:20 CST 2022","150","interface_testcase","test_login","","","","test_01_login[data0]","
+    用例描述：登录接口/获取token
+    :param data:
+    :return:
+    "
 "passed","Thu Mar 17 23:15:38 CST 2022","Thu Mar 17 23:15:49 CST 2022","10866","webui_testcase","test_demo1","","","","test_baidu",""
+"passed","Thu Mar 17 23:31:20 CST 2022","Thu Mar 17 23:31:31 CST 2022","10835","webui_testcase","test_demo1","","","","test_login",""
