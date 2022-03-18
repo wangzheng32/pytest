@@ -1,0 +1,57 @@
+{
+  "uid" : "9904dbc2519d2fc7",
+  "name" : "test_login_duo",
+  "fullName" : "webui_testcase.webui_test_demo1#test_login_duo",
+  "historyId" : "7531011104670ffbb8186202dfc44c4a",
+  "time" : {
+    "start" : 1647620529280,
+    "stop" : 1647620550201,
+    "duration" : 20921
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "webui_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "webui_test_demo1"
+  }, {
+    "name" : "host",
+    "value" : "PC-wz"
+  }, {
+    "name" : "thread",
+    "value" : "39268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "webui_testcase.webui_test_demo1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9904dbc2519d2fc7.json",
+  "parameterValues" : [ ]
+}
