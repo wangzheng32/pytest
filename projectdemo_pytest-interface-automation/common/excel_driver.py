@@ -10,25 +10,27 @@ import openpyxl
 from common.web_key import Key
 
 
+# 读取excel的数据
 def read_excel(path):
     # 获取excel文件
     excel = openpyxl.load_workbook(path)
-    # 获取所有的sheet页
+    # 获取所有的sheet页的名称，列表的形式存放：sheets
     sheets = excel.sheetnames
-    key_li = []
-    sheets_li = []
-    # 将操作步骤放入列表中，列表中每一项以字典格式保存数据（参数步骤数据），
-    dict_key = []
-    sh_key = dict.fromkeys(sheets_li)
+    # 将所有的sheet页名称的列表转化为字典格式
+    sh_key = dict.fromkeys(sheets)
+    # 循环每个sheet页
     for name in sheets:
-        sheets_li.append(name)
+        # 获取所有sheet页的名称  sheet
         sheet = excel[name]
+        # 将每个sheet页的操作步骤放入列表中，列表中每一项以字典格式保存数据（参数步骤数据），
+        dict_key = []
         # print("*******{}*******".format(name))
         # 遍历读取excel中的每个sheet页面内的数据
-        for values in sheet.values:
-            # print(values) # values:excel的每一行数据
+        for values in sheet.values:  # values:excel的每一行数据
+            # print(values)
             if type(values[0]) is int:
-                key_li.append(values[1])
+                # 将所有关键字添加到列表 key_li 中
+                # key_li.append(values[1])
                 data_sheet = {
                     "name": values[2],
                     "value": values[3],
@@ -38,37 +40,44 @@ def read_excel(path):
                 for keyvalue in list(data_sheet.keys()):
                     if data_sheet[keyvalue] is None:
                         del data_sheet[keyvalue]
-                # print("data_sheet:", data_sheet)
-                # 将所有关键字以字典的格式存放在列表中：
-                li_c = {values[1]: data_sheet}
+                # 将所有关键字以及对应的参数数据,步骤描述   以字典（li_c）的格式存放在dict_key列表中：
+                li_c = {"describe": values[5], values[1]: data_sheet}
                 dict_key.append(li_c)
-                # print("li_c:", li_c)
-                # print("dict_key:", dict_key)
-                # print("————————————")
-        sh_key[name] = dict_key
-        # print("sh_key:", sh_key)
-        data = json.dumps(sh_key)
-        # print("json数据格式data:", data)
-        return data
+                # 将每个sheet页的数据列表赋值到sheet页字典的value中
+                sh_key[name] = dict_key
+    data = json.dumps(sh_key)
+    print("json数据格式data:", data)
+    return data
 
 
 # 具体执行excel测试用例
 def implement_case(data):
     data = json.loads(data)
-    # print(data)
+    print(data)
+    # 遍历每个sheet页面数据
     for key in data:
         # print(key)     # key:sheet页的名字
-        # print(data[key])        # data[key]:列表格式的用例执行步骤  --- [{步骤一数据},{步骤二数据}]   ---步骤数据的格式：{key:{参数}}
+        # print(data[key])        # data[key]:列表格式的用例执行步骤  --- [{步骤一数据},{步骤二数据}]   ---步骤数据的格式：{key:{参数},describe:描述}
+        print("")
         print("******正在执行WebUi:{}*******".format(key))
-        # 遍历
+        # 遍历每个步骤
         for sheet_key in data[key]:  # sheet_key:步骤数据:dict      cel_value:步骤数据的key
+            # 将步骤描述赋值给describe
+            describe = sheet_key["describe"]
+            del sheet_key["describe"]
+            # 遍历每个步骤参数字典里的key
             for cel_value in sheet_key:  # sheet_key[cel_value]:步骤参数:dict
                 sheet_value = sheet_key[cel_value]
                 if cel_value == "open_browser":
                     # 当读取到open_browser时需要实例化
                     key_value = Key(**sheet_value)
                 else:
-                    getattr(key_value, cel_value)(**sheet_value)
+                    try:
+                        getattr(key_value, cel_value)(**sheet_value)
+                        print("Message:执行 {}--SUCCESS".format(describe))
+                    except Exception as e:
+                        print("Message:执行 {}>>>>FAIL".format(describe))
+                        print(e)
 
 
 '''

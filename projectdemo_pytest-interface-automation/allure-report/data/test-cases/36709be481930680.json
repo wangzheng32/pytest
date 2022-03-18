@@ -1,0 +1,99 @@
+{
+  "uid" : "36709be481930680",
+  "name" : "test_01_login[data0]",
+  "fullName" : "interface_testcase.test_login#test_01_login",
+  "historyId" : "5dce78bd3c677673d295335dbcb376b9",
+  "time" : {
+    "start" : 1647505160353,
+    "stop" : 1647505160485,
+    "duration" : 132
+  },
+  "description" : "\n    用例描述：登录接口/获取token\n    :param data:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：登录接口/获取token\n:param data:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "execute_database_sql",
+    "time" : {
+      "start" : 1647505160352,
+      "stop" : 1647505160352,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "execute_database_sql::0",
+    "time" : {
+      "start" : 1647505169402,
+      "stop" : 1647505169402,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录/获取token"
+  }, {
+    "name" : "feature",
+    "value" : "登录 或 退出登录"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "interface_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "PC-wz"
+  }, {
+    "name" : "thread",
+    "value" : "12976-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "interface_testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录成功的用例', 'request': {'url': 'http://123.60.88.124/prod-api/auth/user/login', 'method': 'post', 'params': {'username': 'admin', 'password': 123456, 'grant_type': 'password'}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Basic b2E6MTIzNDU2'}}, 'eq': 'None'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "36709be481930680.json",
+  "parameterValues" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://123.60.88.124/prod-api/auth/user/login', 'method': 'post', 'params': {'username': 'admin', 'password': 123456, 'grant_type': 'password'}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Basic b2E6MTIzNDU2'}}, 'eq': 'None'}" ]
+}

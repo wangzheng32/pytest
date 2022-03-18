@@ -1,0 +1,288 @@
+{
+  "uid" : "52cbf7e78ea62dd7",
+  "name" : "test_baidu",
+  "fullName" : "webui_testcase.test_demo1#test_baidu",
+  "historyId" : "235b24c2ce5452718ff7463422b471fd",
+  "time" : {
+    "start" : 1647530138472,
+    "stop" : 1647530149338,
+    "duration" : 10866
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 26,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "webui_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo1"
+  }, {
+    "name" : "host",
+    "value" : "PC-wz"
+  }, {
+    "name" : "thread",
+    "value" : "34192-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "webui_testcase.test_demo1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cc57c89c70f5e681",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647530095838,
+        "stop" : 1647530106539,
+        "duration" : 10701
+      }
+    }, {
+      "uid" : "c8068a929596e234",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647530059867,
+        "stop" : 1647530070556,
+        "duration" : 10689
+      }
+    }, {
+      "uid" : "a5dc84327c604ec2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: list indices must be integers or slices, not dict",
+      "time" : {
+        "start" : 1647530004608,
+        "stop" : 1647530004628,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "5aac14d979b726cb",
+      "status" : "broken",
+      "statusDetails" : "TypeError: list indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1647509738070,
+        "stop" : 1647509738070,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "93e490cad3e6aa7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647509301401,
+        "stop" : 1647509317287,
+        "duration" : 15886
+      }
+    }, {
+      "uid" : "7694fab98285bfa1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647508986573,
+        "stop" : 1647509002546,
+        "duration" : 15973
+      }
+    }, {
+      "uid" : "19d12fb1fdaf3d4c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647508027186,
+        "stop" : 1647508030793,
+        "duration" : 3607
+      }
+    }, {
+      "uid" : "70010fe8770cde5d",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'ds_key' referenced before assignment",
+      "time" : {
+        "start" : 1647506635673,
+        "stop" : 1647506635689,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "80adde53584531b5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647506560918,
+        "stop" : 1647506564731,
+        "duration" : 3813
+      }
+    }, {
+      "uid" : "29e7786027446e16",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647506509679,
+        "stop" : 1647506513643,
+        "duration" : 3964
+      }
+    }, {
+      "uid" : "bb61743325911a2f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647506360720,
+        "stop" : 1647506364287,
+        "duration" : 3567
+      }
+    }, {
+      "uid" : "6620d9fbed6a6941",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647506219354,
+        "stop" : 1647506222892,
+        "duration" : 3538
+      }
+    }, {
+      "uid" : "9bba1a38a3a1698e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647506147181,
+        "stop" : 1647506150830,
+        "duration" : 3649
+      }
+    }, {
+      "uid" : "97dfc09a4f215f25",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647506060216,
+        "stop" : 1647506063949,
+        "duration" : 3733
+      }
+    }, {
+      "uid" : "a871469137e83882",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647505406399,
+        "stop" : 1647505420695,
+        "duration" : 14296
+      }
+    }, {
+      "uid" : "4aebda8bf6317ad6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647505313402,
+        "stop" : 1647505321988,
+        "duration" : 8586
+      }
+    }, {
+      "uid" : "1050c63cbc3d07f6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'txt' is an invalid keyword argument for print()",
+      "time" : {
+        "start" : 1647505279401,
+        "stop" : 1647505280401,
+        "duration" : 1000
+      }
+    }, {
+      "uid" : "99e0463a4d69be50",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'url' must be a string\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647505243284,
+        "stop" : 1647505244344,
+        "duration" : 1060
+      }
+    }, {
+      "uid" : "40badbf4fce601be",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647505160539,
+        "stop" : 1647505169194,
+        "duration" : 8655
+      }
+    }, {
+      "uid" : "bf9f69b441580b4c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647505105651,
+        "stop" : 1647505114283,
+        "duration" : 8632
+      }
+    }, {
+      "uid" : "e0db66fe8392e81b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647505016427,
+        "stop" : 1647505025033,
+        "duration" : 8606
+      }
+    }, {
+      "uid" : "a780eb764909727a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647504958189,
+        "stop" : 1647504966672,
+        "duration" : 8483
+      }
+    }, {
+      "uid" : "4d7d57f76bbf084f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647504855741,
+        "stop" : 1647504864379,
+        "duration" : 8638
+      }
+    }, {
+      "uid" : "efbe9af59f39b850",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647504393926,
+        "stop" : 1647504402512,
+        "duration" : 8586
+      }
+    }, {
+      "uid" : "11204f15690ffd4a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[1]/a/h1\"}\n  (Session info: chrome=99.0.4844.74)",
+      "time" : {
+        "start" : 1647504288493,
+        "stop" : 1647504297123,
+        "duration" : 8630
+      }
+    }, {
+      "uid" : "77a888a2b24d2863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647499645164,
+        "stop" : 1647499656010,
+        "duration" : 10846
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52cbf7e78ea62dd7.json",
+  "parameterValues" : [ ]
+}

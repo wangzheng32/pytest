@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "test_baidu",
-    "uid" : "c7c2e6d143f0ecd9",
+    "uid" : "52cbf7e78ea62dd7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -19,37 +19,12 @@
     "retriesStatusChange" : true,
     "parameters" : [ ]
   }, {
-    "name" : "关于人员信息的接口",
-    "children" : [ {
-      "name" : "查询人员档案",
-      "children" : [ {
-        "name" : "test_personnel_query[data0]",
-        "uid" : "4f3a21cd89cc14f5",
-        "parentUid" : "14a8834243ddd778f16559a264955bf8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1647531080325,
-          "stop" : 1647531080325,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 30,
-        "retriesStatusChange" : true,
-        "parameters" : [ "{'request': {'url': 'http://123.60.88.124/prod-api/oa/personnel_files/list', 'method': 'get', 'params': {'pageNum': 1, 'pageSize': 10}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer', 'Cookie': 'Admin-Token='}}, 'eq': {'code': 200, 'msg': '查询成功'}}" ]
-      } ],
-      "uid" : "14a8834243ddd778f16559a264955bf8"
-    } ],
-    "uid" : "920f0ba4d4e9bdd536a0136dc12807a2"
-  }, {
     "name" : "登录 或 退出登录",
     "children" : [ {
       "name" : "登录/获取token",
       "children" : [ {
         "name" : "test_01_login[data0]",
-        "uid" : "9ec59395050698b5",
+        "uid" : "f4a5deb2a18fc5a3",
         "parentUid" : "89c0a426a3ebaad19572e41e0d3061f7",
         "status" : "passed",
         "time" : {
@@ -70,7 +45,7 @@
       "name" : "退出登录",
       "children" : [ {
         "name" : "test_loginout",
-        "uid" : "e5806247dd9c33a1",
+        "uid" : "922dd8848b2db7d",
         "parentUid" : "6ac4ea2e0407e0b1c88f2a081d7b0457",
         "status" : "passed",
         "time" : {
@@ -90,8 +65,33 @@
     } ],
     "uid" : "3cde77d60dfb5653cfae613c647211ec"
   }, {
+    "name" : "关于人员信息的接口",
+    "children" : [ {
+      "name" : "查询人员档案",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "9dd7e4ffba5786b4",
+        "parentUid" : "14a8834243ddd778f16559a264955bf8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647531080325,
+          "stop" : 1647531080325,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 30,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'request': {'url': 'http://123.60.88.124/prod-api/oa/personnel_files/list', 'method': 'get', 'params': {'pageNum': 1, 'pageSize': 10}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer', 'Cookie': 'Admin-Token='}}, 'eq': {'code': 200, 'msg': '查询成功'}}" ]
+      } ],
+      "uid" : "14a8834243ddd778f16559a264955bf8"
+    } ],
+    "uid" : "920f0ba4d4e9bdd536a0136dc12807a2"
+  }, {
     "name" : "test_login1",
-    "uid" : "66835a1051f49406",
+    "uid" : "f3a8f6ea1647bbe6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -108,7 +108,7 @@
     "parameters" : [ ]
   }, {
     "name" : "test_login",
-    "uid" : "7d723ae8556220bf",
+    "uid" : "8b9ff3e557955d2e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -125,7 +125,7 @@
     "parameters" : [ ]
   }, {
     "name" : "test_login2",
-    "uid" : "a799a54e9cbbf1c9",
+    "uid" : "438c426812bd487c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -141,55 +141,55 @@
     "retriesStatusChange" : true,
     "parameters" : [ ]
   }, {
-    "name" : "test_login",
-    "uid" : "bf4e82d3023e15be",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1647531284957,
-      "stop" : 1647531295631,
-      "duration" : 10674
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "test_login1",
-    "uid" : "92d0cbf3ef2608ce",
+    "uid" : "85b557f279cc156",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647531284957,
-      "stop" : 1647531295663,
-      "duration" : 10706
+      "start" : 1647570319307,
+      "stop" : 1647570330714,
+      "duration" : 11407
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_login2",
-    "uid" : "bd012f38703dd622",
+    "uid" : "ffca2028b0b45c28",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1647531295633,
-      "stop" : 1647531306284,
-      "duration" : 10651
+      "start" : 1647570319307,
+      "stop" : 1647570330729,
+      "duration" : 11422
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login",
+    "uid" : "22fe3b86636cf8bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1647615765374,
+      "stop" : 1647615799197,
+      "duration" : 33823
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : true,
     "parameters" : [ ]
   } ]
 }

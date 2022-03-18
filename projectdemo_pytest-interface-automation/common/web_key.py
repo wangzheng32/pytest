@@ -65,5 +65,5 @@ class Key:
         assert (at.text == txt), et
 
     # 当前页面
-    def sreach_(self):
+    def sreach_w(self):
         self.driver.current_window_handle

@@ -7,7 +7,7 @@
       "name" : "TypeError: 'NoneType' object is not subscriptable",
       "children" : [ {
         "name" : "test_personnel_query[data0]",
-        "uid" : "4f3a21cd89cc14f5",
+        "uid" : "9dd7e4ffba5786b4",
         "parentUid" : "86a928d47f47009c564bd8e345a40463",
         "status" : "broken",
         "time" : {
