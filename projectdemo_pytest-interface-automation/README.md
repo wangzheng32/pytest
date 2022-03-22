@@ -12,12 +12,12 @@
 
 ****
 ##目录介绍
-#### action         :关键字驱动，所有接口从这里调
 #### allure-report  :存放allure测试报告
 #### allure-results :存放数据
-#### api            :存放接口和请求封装，之后传给action
 #### case           :存放测试用例
-#### common         :存放公共部分yaml操作以及数据库等
+####   interface        :存放接口测试用例
+####   webui            :存放webUI测试用例
+#### common         :存放公共部分yaml操作、excel操作以及数据库等，存放接口和请求封装
 #### configs        :存放域名，登录，数据库等数据
 #### data           :存放yaml、excel测试用例数据
 #### log            :存放日志
