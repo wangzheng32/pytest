@@ -1,4 +1,4 @@
-#作者：王政
+#作者：wz32
 ****
 ##框架介绍：
 ### python+pytest+allure+Jekins
