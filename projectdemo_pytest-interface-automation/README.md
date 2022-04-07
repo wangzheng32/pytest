@@ -1,4 +1,4 @@
-#作者：王政
+#作者：WZ
 ****
 ##框架介绍：
 ### python+pytest+allure+Jekins
@@ -20,7 +20,7 @@
 #### common         :存放公共部分yaml操作、excel操作以及数据库等，存放接口和请求封装
 #### configs        :存放域名，登录，数据库等数据
 #### data           :存放yaml、excel测试用例数据
-#### log            :存放日志
+
 #### main           :主函数
 #### pytest.ini     :配置文件
 
