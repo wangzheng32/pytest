@@ -10,21 +10,43 @@
 """
 import time
 from selenium import webdriver
+# from selenium.webdriver.chrome.options import Options
+import os
+
+
+def head_less(browser):
+    """
+    浏览器进行无界面化
+    :param browser:浏览器名称
+    :return:option
+    """
+    b_O = browser + "Options"
+    option = getattr(webdriver, b_O)()
+    option.add_argument('--headless')
+    return option
 
 
 def open_browser(txt):
-    # if type_ == "Chrome":
-    #     driver = webdriver.Chrome()
-    # elif type_ == "Firefox":
-    #     driver = webdriver.Firefox()
-    # else:
-    #     driver = webdriver.Ie()
+    """
+    if type_ == "Chrome":
+        driver = webdriver.Chrome()
+    elif type_ == "Firefox":
+        driver = webdriver.Firefox()
+    else:
+        driver = webdriver.Ie()
+    """
     try:
+        option = head_less(txt)
         # python的反射机制
-        driver = getattr(webdriver, txt)()
+        driver = getattr(webdriver, txt)(options=option)
+        # 不隐藏浏览器
+        # driver = getattr(webdriver, txt)()
     except Exception as e:
         print(e)
-        driver = webdriver.Chrome()
+        option = head_less(txt)
+        driver = webdriver.Chrome(options=option)
+        # 不隐藏浏览器
+        # driver = webdriver.Chrome()
     return driver
 
 
@@ -41,6 +63,10 @@ class Key:
     # 点击
     def click(self, name, value):
         self.locator(name, value).click()
+
+    # 不可交互式的元素点击
+    def click_script(self, name, value):
+        self.driver.execute_script("arguments[0].click()", self.locator(name, value))
 
     # 输入
     def input(self, name, value, txt):
@@ -67,3 +93,11 @@ class Key:
     # 当前页面
     def sreach_w(self):
         self.driver.current_window_handle
+
+    # 上传本地pdf文件
+    def up_load_pdf(self, name, value, txt):
+        self.locator(name, value).send_keys(os.getcwd(), "/data/Document/{}.pdf".format(txt))
+
+    # 上传本地png图片
+    def up_load_png(self, name, value, txt):
+        self.locator(name, value).send_keys(os.getcwd(), "/data/Document/{}.png".format(txt))

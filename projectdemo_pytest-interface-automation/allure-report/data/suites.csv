@@ -1,4 +1,26 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Mar 19 00:22:09 CST 2022","Sat Mar 19 00:22:43 CST 2022","34132","webui_testcase","webui_test_demo1","","","","test_login2",""
-"passed","Sat Mar 19 00:22:09 CST 2022","Sat Mar 19 00:22:21 CST 2022","11746","webui_testcase","webui_test_demo1","","","","test_login1",""
-"passed","Sat Mar 19 00:22:09 CST 2022","Sat Mar 19 00:22:30 CST 2022","20921","webui_testcase","webui_test_demo1","","","","test_login_duo",""
+"passed","Mon Mar 21 14:43:25 CST 2022","Mon Mar 21 14:43:58 CST 2022","32989","case.webui_testcase","webui_test_demo1","","","","test_login2",""
+"passed","Thu Sep 08 15:25:17 CST 2022","Thu Sep 08 15:25:17 CST 2022","0","case.webui_testcase","webui_Material_Platform","","","","test_3",""
+"passed","Thu Sep 08 15:25:17 CST 2022","Thu Sep 08 15:25:17 CST 2022","0","case.webui_testcase","webui_Material_Platform","","","","test_1",""
+"passed","Wed Aug 10 09:23:04 CST 2022","Wed Aug 10 09:23:32 CST 2022","28124","case.webui_testcase","webui_test_demo1","","","","test_login_duo",""
+"passed","Wed Sep 07 17:48:59 CST 2022","Wed Sep 07 17:49:35 CST 2022","36255","case.webui_testcase","webui_Material_Platform","","","","test_dq_material_platform",""
+"passed","Tue Apr 12 15:59:37 CST 2022","Tue Apr 12 15:59:37 CST 2022","62","case.interface_testcase","zhgd_into_data","","","","test_personnel_query[data0]","
+    用例描述：插入数据
+    :param data:
+    :return:
+    "
+"passed","Tue Apr 12 15:59:36 CST 2022","Tue Apr 12 15:59:37 CST 2022","232","case.interface_testcase","zhgd_a_login","","","","test_01_login[data0]","
+    用例描述：登录接口/获取token
+    :param data:
+    :return:
+    "
+"passed","Fri Sep 16 15:39:40 CST 2022","Fri Sep 16 15:40:13 CST 2022","32608","case.webui_testcase","webui_Material_Platform","","","","test_dq_material_platform_add",""
+"passed","Wed Jun 29 17:51:47 CST 2022","Wed Jun 29 17:51:47 CST 2022","537","case.interface_testcase","rto_login","","","","test_01_login[data0]","
+    用例描述：登录接口/获取token
+    :param data:
+    :return:
+    "
+"passed","Fri Sep 16 15:58:06 CST 2022","Fri Sep 16 16:00:13 CST 2022","127510","case.webui_testcase","webui_Material_Platform","","","","test_dq_material_platform_approval",""
+"passed","Mon Mar 21 14:43:25 CST 2022","Mon Mar 21 14:43:36 CST 2022","11053","case.webui_testcase","webui_test_demo1","","","","test_login1",""
+"passed","Thu Sep 08 15:25:17 CST 2022","Thu Sep 08 15:25:17 CST 2022","0","case.webui_testcase","webui_Material_Platform","","","","test_2",""
+"passed","Thu Sep 08 13:12:30 CST 2022","Thu Sep 08 13:12:56 CST 2022","25400","case.webui_testcase","webui_Material_Platform","","","","test_dq_material_platform_approval_jl",""

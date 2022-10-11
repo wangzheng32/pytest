@@ -4,58 +4,16 @@
   "children" : [ {
     "name" : "PC-wz",
     "children" : [ {
-      "name" : "41672-MainThread",
-      "children" : [ {
-        "name" : "test_login2",
-        "uid" : "5b0467337a61d475",
-        "parentUid" : "c3f30aaf9a55402a8acf0cc66160056b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647620529280,
-          "stop" : 1647620563412,
-          "duration" : 34132
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c3f30aaf9a55402a8acf0cc66160056b"
-    }, {
-      "name" : "34320-MainThread",
-      "children" : [ {
-        "name" : "test_login1",
-        "uid" : "28229d137ec8f75",
-        "parentUid" : "5dac374d6c6f0e90a818040c0aa9eb9b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1647620529280,
-          "stop" : 1647620541026,
-          "duration" : 11746
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5dac374d6c6f0e90a818040c0aa9eb9b"
-    }, {
-      "name" : "39268-MainThread",
+      "name" : "27752-MainThread",
       "children" : [ {
         "name" : "test_login_duo",
-        "uid" : "9904dbc2519d2fc7",
-        "parentUid" : "86801a89e7ca129b0c12397ee3ea525f",
+        "uid" : "1c72e16886940858",
+        "parentUid" : "9cd4473f4d7d5f18076299516274d388",
         "status" : "passed",
         "time" : {
-          "start" : 1647620529280,
-          "stop" : 1647620550201,
-          "duration" : 20921
+          "start" : 1660024629546,
+          "stop" : 1660024655410,
+          "duration" : 25864
         },
         "flaky" : false,
         "newFailed" : false,
@@ -65,7 +23,2698 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "86801a89e7ca129b0c12397ee3ea525f"
+      "uid" : "9cd4473f4d7d5f18076299516274d388"
+    }, {
+      "name" : "2360-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "a1c2165cbc9367bf",
+        "parentUid" : "fc54b10c23d2db25ac75d3b7982a5f3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663031645662,
+          "stop" : 1663031675998,
+          "duration" : 30336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "24e202007c98baa3",
+        "parentUid" : "fc54b10c23d2db25ac75d3b7982a5f3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663031676008,
+          "stop" : 1663031753078,
+          "duration" : 77070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc54b10c23d2db25ac75d3b7982a5f3c"
+    }, {
+      "name" : "15056-MainThread",
+      "children" : [ {
+        "name" : "test_2",
+        "uid" : "4dccc2bb44ae280a",
+        "parentUid" : "467967c21b7eef29c3c6d4a0b1bd564d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621842926,
+          "stop" : 1662621842926,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_3",
+        "uid" : "d88f961998dca6eb",
+        "parentUid" : "467967c21b7eef29c3c6d4a0b1bd564d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621842928,
+          "stop" : 1662621842928,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1",
+        "uid" : "325dcdef07ef768e",
+        "parentUid" : "467967c21b7eef29c3c6d4a0b1bd564d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621842924,
+          "stop" : 1662621842924,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "467967c21b7eef29c3c6d4a0b1bd564d"
+    }, {
+      "name" : "33736-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "d8103bf828d3cde",
+        "parentUid" : "10adf05990a2de637199639b5253ecff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649658116532,
+          "stop" : 1649658116610,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiampaaXp5SWxDdzZiVFNSRDZMSTBxdlB6NWZOdWpRMTMifQ.JtIZUNLDJ_4-fezygFmhvty85v7ZPBDfzt8sjv7XvQ8'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      } ],
+      "uid" : "10adf05990a2de637199639b5253ecff"
+    }, {
+      "name" : "52592-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "e90b6962b501bc97",
+        "parentUid" : "ff0e20db12b57881c7faa70fb939bf99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660022533794,
+          "stop" : 1660022559574,
+          "duration" : 25780
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff0e20db12b57881c7faa70fb939bf99"
+    }, {
+      "name" : "47396-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "145a25a265bfa8b2",
+        "parentUid" : "729d8133a9720a75486dafb2f5004f84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660023922363,
+          "stop" : 1660023948229,
+          "duration" : 25866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "729d8133a9720a75486dafb2f5004f84"
+    }, {
+      "name" : "35452-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "304734c6008cccf",
+        "parentUid" : "8c4467f43fb5c7e54b90d919ac5e8191",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649750201279,
+          "stop" : 1649750201297,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      }, {
+        "name" : "test_01_login[data0]",
+        "uid" : "572e448302287b89",
+        "parentUid" : "8c4467f43fb5c7e54b90d919ac5e8191",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649750201008,
+          "stop" : 1649750201277,
+          "duration" : 269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.160:7800/prod-api/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}" ]
+      } ],
+      "uid" : "8c4467f43fb5c7e54b90d919ac5e8191"
+    }, {
+      "name" : "21560-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "e9934fdc76b58904",
+        "parentUid" : "69025bddb07119f02c613d9da6e55120",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662025096511,
+          "stop" : 1662025119668,
+          "duration" : 23157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "69025bddb07119f02c613d9da6e55120"
+    }, {
+      "name" : "22828-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "d225de224279c7fc",
+        "parentUid" : "c5b44b5eac426efe8473fcba2f20acc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662025422679,
+          "stop" : 1662025445827,
+          "duration" : 23148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c5b44b5eac426efe8473fcba2f20acc9"
+    }, {
+      "name" : "21432-MainThread",
+      "children" : [ {
+        "name" : "test_2",
+        "uid" : "f29fb2df00ea5757",
+        "parentUid" : "99ec6b63ab0403dc1900a00b0a711b0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662620950122,
+          "stop" : 1662620950122,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1",
+        "uid" : "8033b75887b80deb",
+        "parentUid" : "99ec6b63ab0403dc1900a00b0a711b0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662620950120,
+          "stop" : 1662620950120,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_3",
+        "uid" : "cc58c84986afc15e",
+        "parentUid" : "99ec6b63ab0403dc1900a00b0a711b0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662620950123,
+          "stop" : 1662620950123,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99ec6b63ab0403dc1900a00b0a711b0f"
+    }, {
+      "name" : "22732-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "f6e1c2e9b00a0099",
+        "parentUid" : "c5fc9a987fb4f85ad712df148c5d3685",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662620490071,
+          "stop" : 1662620566030,
+          "duration" : 75959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "d31306a85dd4c5de",
+        "parentUid" : "c5fc9a987fb4f85ad712df148c5d3685",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662620459660,
+          "stop" : 1662620490070,
+          "duration" : 30410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c5fc9a987fb4f85ad712df148c5d3685"
+    }, {
+      "name" : "47536-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "96a43533ae9dd5b2",
+        "parentUid" : "8d7bc11114f105fe0ed22186a5354466",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663310281393,
+          "stop" : 1663310320208,
+          "duration" : 38815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "89dd28a32aba25f9",
+        "parentUid" : "8d7bc11114f105fe0ed22186a5354466",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663310320211,
+          "stop" : 1663310320230,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d7bc11114f105fe0ed22186a5354466"
+    }, {
+      "name" : "28132-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "a70899c430419893",
+        "parentUid" : "d0d1c04859f28883f5885e66b2454589",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649750222549,
+          "stop" : 1649750222607,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      }, {
+        "name" : "test_01_login[data0]",
+        "uid" : "2058905a5380cd3e",
+        "parentUid" : "d0d1c04859f28883f5885e66b2454589",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649750222326,
+          "stop" : 1649750222547,
+          "duration" : 221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.160:7800/prod-api/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}" ]
+      } ],
+      "uid" : "d0d1c04859f28883f5885e66b2454589"
+    }, {
+      "name" : "78076-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "665477be25e55b6a",
+        "parentUid" : "d07602157d532db3d1a926a3604f7fef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660026267318,
+          "stop" : 1660026295624,
+          "duration" : 28306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d07602157d532db3d1a926a3604f7fef"
+    }, {
+      "name" : "16072-MainThread",
+      "children" : [ {
+        "name" : "test_3",
+        "uid" : "9c7a2ba86b29d6a5",
+        "parentUid" : "2cdab84e3ec41d5546b2e8b0fa1376a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621767609,
+          "stop" : 1662621767609,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1",
+        "uid" : "bb78f13841e8390a",
+        "parentUid" : "2cdab84e3ec41d5546b2e8b0fa1376a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621767600,
+          "stop" : 1662621767600,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_2",
+        "uid" : "35ab9f61dda9b0df",
+        "parentUid" : "2cdab84e3ec41d5546b2e8b0fa1376a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621767607,
+          "stop" : 1662621767607,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2cdab84e3ec41d5546b2e8b0fa1376a6"
+    }, {
+      "name" : "38172-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "26dc4ffa8505828f",
+        "parentUid" : "ab31104ecfe894408b28388226badd70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663138988702,
+          "stop" : 1663139065669,
+          "duration" : 76967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "e7c226da3178a4d0",
+        "parentUid" : "ab31104ecfe894408b28388226badd70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663138952026,
+          "stop" : 1663138988699,
+          "duration" : 36673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab31104ecfe894408b28388226badd70"
+    }, {
+      "name" : "13836-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "a9ca4bb4e7c02756",
+        "parentUid" : "f0c95153ffcb275b9a5eca45e0c32c37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662021334187,
+          "stop" : 1662021357413,
+          "duration" : 23226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0c95153ffcb275b9a5eca45e0c32c37"
+    }, {
+      "name" : "21664-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_approval_jl",
+        "uid" : "12a70254085bd199",
+        "parentUid" : "805672489cb7944ca5db6af3a3616c6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662613950844,
+          "stop" : 1662613976244,
+          "duration" : 25400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "805672489cb7944ca5db6af3a3616c6b"
+    }, {
+      "name" : "53556-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "b10d49216f222410",
+        "parentUid" : "ec13bb80d2f4b48f3d66a3bb6cb1f642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663310834384,
+          "stop" : 1663310870813,
+          "duration" : 36429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "be72a769d7820659",
+        "parentUid" : "ec13bb80d2f4b48f3d66a3bb6cb1f642",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663310870816,
+          "stop" : 1663310870835,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec13bb80d2f4b48f3d66a3bb6cb1f642"
+    }, {
+      "name" : "82180-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "9371aefac14aae6d",
+        "parentUid" : "22d4a9976dc9e303e6c6124d29b8f3e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660037944813,
+          "stop" : 1660037970562,
+          "duration" : 25749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22d4a9976dc9e303e6c6124d29b8f3e1"
+    }, {
+      "name" : "36932-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "6819f10edc882c46",
+        "parentUid" : "8832400f67288c2272830df4b189708d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649750118069,
+          "stop" : 1649750118084,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      }, {
+        "name" : "test_01_login[data0]",
+        "uid" : "df965ead5e2a189f",
+        "parentUid" : "8832400f67288c2272830df4b189708d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649750117829,
+          "stop" : 1649750118067,
+          "duration" : 238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.160:7800/prod-api/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}" ]
+      } ],
+      "uid" : "8832400f67288c2272830df4b189708d"
+    }, {
+      "name" : "47996-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "1bf4e30205f3371a",
+        "parentUid" : "7c2775cf7d8769490285ec100358307f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648174198452,
+          "stop" : 1648174226845,
+          "duration" : 28393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c2775cf7d8769490285ec100358307f"
+    }, {
+      "name" : "35136-MainThread",
+      "children" : [ {
+        "name" : "test_3",
+        "uid" : "b1732beb0d898b8d",
+        "parentUid" : "f845d0a5a79f56a6cf2c79166e2965d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621836831,
+          "stop" : 1662621836831,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1",
+        "uid" : "5092e337d5c2f03f",
+        "parentUid" : "f845d0a5a79f56a6cf2c79166e2965d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621836828,
+          "stop" : 1662621836828,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_2",
+        "uid" : "412a0e3dd86d20a7",
+        "parentUid" : "f845d0a5a79f56a6cf2c79166e2965d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621836829,
+          "stop" : 1662621836829,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f845d0a5a79f56a6cf2c79166e2965d3"
+    }, {
+      "name" : "11228-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "fee69324656fa552",
+        "parentUid" : "5f5ebed3e3b7e1dcb5ec0f6ab2a081ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647845434689,
+          "stop" : 1647845460559,
+          "duration" : 25870
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f5ebed3e3b7e1dcb5ec0f6ab2a081ea"
+    }, {
+      "name" : "49380-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "204f43040d96fbed",
+        "parentUid" : "ede7fd16aa129420d41c438765ea51be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663311415270,
+          "stop" : 1663311415290,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "50096c21587cfbd9",
+        "parentUid" : "ede7fd16aa129420d41c438765ea51be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663311375662,
+          "stop" : 1663311415267,
+          "duration" : 39605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ede7fd16aa129420d41c438765ea51be"
+    }, {
+      "name" : "70724-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "5f5fd4ba19fb1ef3",
+        "parentUid" : "682c3b71d5d8bf921b0138b1008aed4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660038819765,
+          "stop" : 1660038845663,
+          "duration" : 25898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "682c3b71d5d8bf921b0138b1008aed4b"
+    }, {
+      "name" : "65872-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "dd474815db3a6926",
+        "parentUid" : "24c364aa4517e043c328da735ca49f00",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659687388553,
+          "stop" : 1659687394805,
+          "duration" : 6252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24c364aa4517e043c328da735ca49f00"
+    }, {
+      "name" : "24672-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "536532ab5992778f",
+        "parentUid" : "24197e8a8214ee87f1e754fda11807d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662619516693,
+          "stop" : 1662619546961,
+          "duration" : 30268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "ed451c9f35c9355c",
+        "parentUid" : "24197e8a8214ee87f1e754fda11807d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662619546963,
+          "stop" : 1662619622924,
+          "duration" : 75961
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24197e8a8214ee87f1e754fda11807d4"
+    }, {
+      "name" : "22040-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "10e32e519427b0e0",
+        "parentUid" : "a06f578731e0d7d4102ccd781cb02617",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663312909642,
+          "stop" : 1663312945063,
+          "duration" : 35421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a06f578731e0d7d4102ccd781cb02617"
+    }, {
+      "name" : "22296-MainThread",
+      "children" : [ {
+        "name" : "test_01_login[data0]",
+        "uid" : "1567a85ade9e0d33",
+        "parentUid" : "5e18d94ddda5df47ae655e5242ed5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649750376937,
+          "stop" : 1649750377169,
+          "duration" : 232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.160:7800/prod-api/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}" ]
+      }, {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "e604d0aefe47732b",
+        "parentUid" : "5e18d94ddda5df47ae655e5242ed5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649750377178,
+          "stop" : 1649750377240,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      } ],
+      "uid" : "5e18d94ddda5df47ae655e5242ed5dcf"
+    }, {
+      "name" : "43176-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "114b4c5cd2f8b702",
+        "parentUid" : "57e7e5c30dd9bb050b3a0080808aadfa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663037139445,
+          "stop" : 1663037216719,
+          "duration" : 77274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "ff78131555f8e9d6",
+        "parentUid" : "57e7e5c30dd9bb050b3a0080808aadfa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663037109059,
+          "stop" : 1663037139442,
+          "duration" : 30383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57e7e5c30dd9bb050b3a0080808aadfa"
+    }, {
+      "name" : "42116-MainThread",
+      "children" : [ {
+        "name" : "test_01_login[data0]",
+        "uid" : "d2640e1294c2a3cb",
+        "parentUid" : "aa4a4f419dc23cdb3e162f25111c4010",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656496307101,
+          "stop" : 1656496307638,
+          "duration" : 537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.159:8500/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}" ]
+      } ],
+      "uid" : "aa4a4f419dc23cdb3e162f25111c4010"
+    }, {
+      "name" : "73408-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "a566969efe1274b1",
+        "parentUid" : "22d4ee23e813a4cd4f5548ed3a113338",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660039029768,
+          "stop" : 1660039055573,
+          "duration" : 25805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22d4ee23e813a4cd4f5548ed3a113338"
+    }, {
+      "name" : "56260-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "c8f729fa1cfe79de",
+        "parentUid" : "474f04ff9895707596581d191430e70f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663310405335,
+          "stop" : 1663310442054,
+          "duration" : 36719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "657b02d564421370",
+        "parentUid" : "474f04ff9895707596581d191430e70f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663310442062,
+          "stop" : 1663310442081,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "474f04ff9895707596581d191430e70f"
+    }, {
+      "name" : "69404-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "5b35fa75897ce53b",
+        "parentUid" : "8a01bf498de0f07d4841643b430f99e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660094584708,
+          "stop" : 1660094612832,
+          "duration" : 28124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 29,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a01bf498de0f07d4841643b430f99e9"
+    }, {
+      "name" : "47992-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "79c15876040d77d",
+        "parentUid" : "cdbb10e123945b57d607f67de0e9aea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663311037217,
+          "stop" : 1663311076720,
+          "duration" : 39503
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "53e54ef4581b6a8",
+        "parentUid" : "cdbb10e123945b57d607f67de0e9aea9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663311076723,
+          "stop" : 1663311076742,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cdbb10e123945b57d607f67de0e9aea9"
+    }, {
+      "name" : "35624-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "4d78ee0ea62140e4",
+        "parentUid" : "c636a1d7516f91b368fd7c6031451f0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662617178420,
+          "stop" : 1662617256509,
+          "duration" : 78089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c636a1d7516f91b368fd7c6031451f0a"
+    }, {
+      "name" : "35632-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "e85383731a80510b",
+        "parentUid" : "20d15296953449f45680ffe148126cd4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649750033901,
+          "stop" : 1649750033902,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      }, {
+        "name" : "test_01_login[data0]",
+        "uid" : "5e2a915231b9fb52",
+        "parentUid" : "20d15296953449f45680ffe148126cd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649750033870,
+          "stop" : 1649750033899,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.160:7800/prod-api/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}" ]
+      } ],
+      "uid" : "20d15296953449f45680ffe148126cd4"
+    }, {
+      "name" : "24016-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "822c1a947eb0726e",
+        "parentUid" : "6bdef36184c59486081491530d211aa4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662620332927,
+          "stop" : 1662620408767,
+          "duration" : 75840
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "32d064eb87341df4",
+        "parentUid" : "6bdef36184c59486081491530d211aa4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662620302560,
+          "stop" : 1662620332926,
+          "duration" : 30366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bdef36184c59486081491530d211aa4"
+    }, {
+      "name" : "15896-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "1d90b6d26e7fba1d",
+        "parentUid" : "f80831915dfb9e20a6763b6802b66c07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662025256980,
+          "stop" : 1662025280161,
+          "duration" : 23181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f80831915dfb9e20a6763b6802b66c07"
+    }, {
+      "name" : "13728-MainThread",
+      "children" : [ {
+        "name" : "test_2",
+        "uid" : "801f1530f0567877",
+        "parentUid" : "dd34c33f5b712a8cd1fd3303d04f43c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662620987751,
+          "stop" : 1662620987751,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1",
+        "uid" : "af8d598c1fe0f171",
+        "parentUid" : "dd34c33f5b712a8cd1fd3303d04f43c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662620987750,
+          "stop" : 1662620987750,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_3",
+        "uid" : "495808e4a005f777",
+        "parentUid" : "dd34c33f5b712a8cd1fd3303d04f43c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662620987753,
+          "stop" : 1662620987753,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd34c33f5b712a8cd1fd3303d04f43c6"
+    }, {
+      "name" : "33104-MainThread",
+      "children" : [ {
+        "name" : "test_01_login[data0]",
+        "uid" : "ebdccfb2463e2b47",
+        "parentUid" : "721fd062bab2ae92c49ddb24a64c2aca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649750179881,
+          "stop" : 1649750180108,
+          "duration" : 227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.160:7800/prod-api/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}" ]
+      }, {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "c417393658475aac",
+        "parentUid" : "721fd062bab2ae92c49ddb24a64c2aca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649750180110,
+          "stop" : 1649750180125,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      } ],
+      "uid" : "721fd062bab2ae92c49ddb24a64c2aca"
+    }, {
+      "name" : "56464-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "9a64ec15c877c863",
+        "parentUid" : "44439bbed31e14582a66b6bf3bdf3a50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663312536765,
+          "stop" : 1663312572268,
+          "duration" : 35503
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44439bbed31e14582a66b6bf3bdf3a50"
+    }, {
+      "name" : "78936-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "48b5cf45dcb9e4b9",
+        "parentUid" : "d759c74378b1a16bb834fb2fffda5faf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660022642779,
+          "stop" : 1660022668535,
+          "duration" : 25756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d759c74378b1a16bb834fb2fffda5faf"
+    }, {
+      "name" : "29444-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "1c84ca6453f0fec7",
+        "parentUid" : "4b526e70e4906c4b5b91a3fec483159f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662618544218,
+          "stop" : 1662618620177,
+          "duration" : 75959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "fe6c869481d0c28c",
+        "parentUid" : "4b526e70e4906c4b5b91a3fec483159f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662618513915,
+          "stop" : 1662618544217,
+          "duration" : 30302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b526e70e4906c4b5b91a3fec483159f"
+    }, {
+      "name" : "55040-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "cfdfc869f9c38c20",
+        "parentUid" : "070e4fd78522862867efaf683198f7bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663314192767,
+          "stop" : 1663314192787,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "070e4fd78522862867efaf683198f7bc"
+    }, {
+      "name" : "11740-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "4e4da40bff84c173",
+        "parentUid" : "5b9ccad1e464fbabd224804f54eabf7e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649748879928,
+          "stop" : 1649748879952,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiampaaXp5SWxDdzZiVFNSRDZMSTBxdlB6NWZOdWpRMTMifQ.JtIZUNLDJ_4-fezygFmhvty85v7ZPBDfzt8sjv7XvQ8'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      } ],
+      "uid" : "5b9ccad1e464fbabd224804f54eabf7e"
+    }, {
+      "name" : "34616-MainThread",
+      "children" : [ {
+        "name" : "test_1",
+        "uid" : "d29b2621233aea66",
+        "parentUid" : "8c77920d6682dbe3e0692e01551dc410",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621824771,
+          "stop" : 1662621824771,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_3",
+        "uid" : "b7b8466c68baaed7",
+        "parentUid" : "8c77920d6682dbe3e0692e01551dc410",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621824776,
+          "stop" : 1662621824776,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_2",
+        "uid" : "e4ea257d4991751a",
+        "parentUid" : "8c77920d6682dbe3e0692e01551dc410",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621824774,
+          "stop" : 1662621824774,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8c77920d6682dbe3e0692e01551dc410"
+    }, {
+      "name" : "48684-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "8a0d5f08638bddd2",
+        "parentUid" : "b3e9992664d4d300c3ce8b3783be7d3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663315086092,
+          "stop" : 1663315213602,
+          "duration" : 127510
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 18,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b3e9992664d4d300c3ce8b3783be7d3b"
+    }, {
+      "name" : "19136-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "88df4758e7566e4d",
+        "parentUid" : "80920ffcdea610c4d62993bdd675fde9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662020055486,
+          "stop" : 1662020078611,
+          "duration" : 23125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "80920ffcdea610c4d62993bdd675fde9"
+    }, {
+      "name" : "82700-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "6632cf668e41fa42",
+        "parentUid" : "39998683616649ff61d28d14c79308c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660038000988,
+          "stop" : 1660038026801,
+          "duration" : 25813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39998683616649ff61d28d14c79308c1"
+    }, {
+      "name" : "53096-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "3bdd54e710b0f70",
+        "parentUid" : "dc9f34e30916687a1ea89d132f8d2a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659688028280,
+          "stop" : 1659688054619,
+          "duration" : 26339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc9f34e30916687a1ea89d132f8d2a39"
+    }, {
+      "name" : "23060-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "a3d8203b0a4e96c8",
+        "parentUid" : "595919871a9bbf66ca74adb3100e5bc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662025209198,
+          "stop" : 1662025232382,
+          "duration" : 23184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "595919871a9bbf66ca74adb3100e5bc5"
+    }, {
+      "name" : "83236-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "b27df47bccee0097",
+        "parentUid" : "0e22b3072e08adeeb35cc63b8b759b48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660036734861,
+          "stop" : 1660036760706,
+          "duration" : 25845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e22b3072e08adeeb35cc63b8b759b48"
+    }, {
+      "name" : "33764-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "af939b600a2bb26b",
+        "parentUid" : "3a8f84f919bff2564307b7f1f5d2556a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663310950169,
+          "stop" : 1663310987731,
+          "duration" : 37562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "3e196107ca60e7ff",
+        "parentUid" : "3a8f84f919bff2564307b7f1f5d2556a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663310987733,
+          "stop" : 1663310987753,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3a8f84f919bff2564307b7f1f5d2556a"
+    }, {
+      "name" : "45964-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "6c03504c6bd7a1a8",
+        "parentUid" : "c2443d734d892726f4a1ce99d0ba4d96",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663138864473,
+          "stop" : 1663138864473,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "432e6dc114fecdb8",
+        "parentUid" : "c2443d734d892726f4a1ce99d0ba4d96",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663138864265,
+          "stop" : 1663138864265,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2443d734d892726f4a1ce99d0ba4d96"
+    }, {
+      "name" : "40576-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "401be20afe067626",
+        "parentUid" : "d4aac3c2365e76ac10524f0a01af7d10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663309187928,
+          "stop" : 1663309225724,
+          "duration" : 37796
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "77a08a6fe02c1abf",
+        "parentUid" : "d4aac3c2365e76ac10524f0a01af7d10",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663309225727,
+          "stop" : 1663309225746,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4aac3c2365e76ac10524f0a01af7d10"
+    }, {
+      "name" : "13896-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "426f297dc7981f69",
+        "parentUid" : "a99a6234743bdfab1da3ec887b347456",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649659278039,
+          "stop" : 1649659278140,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiampaaXp5SWxDdzZiVFNSRDZMSTBxdlB6NWZOdWpRMTMifQ.JtIZUNLDJ_4-fezygFmhvty85v7ZPBDfzt8sjv7XvQ8'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      } ],
+      "uid" : "a99a6234743bdfab1da3ec887b347456"
+    }, {
+      "name" : "3528-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "1ccd2a12570b572a",
+        "parentUid" : "a0b163c6ad382bfe570c4d59138bd375",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662020262500,
+          "stop" : 1662020285641,
+          "duration" : 23141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0b163c6ad382bfe570c4d59138bd375"
+    }, {
+      "name" : "6068-MainThread",
+      "children" : [ {
+        "name" : "test_3",
+        "uid" : "88f9572671baa222",
+        "parentUid" : "55103f39ef72066c260eb6415ec7bc7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621917221,
+          "stop" : 1662621917221,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_1",
+        "uid" : "a189d70136acccf9",
+        "parentUid" : "55103f39ef72066c260eb6415ec7bc7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621917216,
+          "stop" : 1662621917216,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_2",
+        "uid" : "42731b259be5a733",
+        "parentUid" : "55103f39ef72066c260eb6415ec7bc7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662621917218,
+          "stop" : 1662621917218,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "55103f39ef72066c260eb6415ec7bc7b"
+    }, {
+      "name" : "28144-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "d22179d47f8b3d6",
+        "parentUid" : "973d691703622f1a0a18096e36bfc4d1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649658435680,
+          "stop" : 1649658435756,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiampaaXp5SWxDdzZiVFNSRDZMSTBxdlB6NWZOdWpRMTMifQ.JtIZUNLDJ_4-fezygFmhvty85v7ZPBDfzt8sjv7XvQ8'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      } ],
+      "uid" : "973d691703622f1a0a18096e36bfc4d1"
+    }, {
+      "name" : "74036-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "97397c157dc285cf",
+        "parentUid" : "7b04ce63cf88e23223bc910e988ad36f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660036493597,
+          "stop" : 1660036521656,
+          "duration" : 28059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b04ce63cf88e23223bc910e988ad36f"
+    }, {
+      "name" : "51288-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "72033a7af532745a",
+        "parentUid" : "5b1de5a2e1eba510c61e012610cb3281",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663310670068,
+          "stop" : 1663310706331,
+          "duration" : 36263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dq_material_platform_approval",
+        "uid" : "589022a1172654d3",
+        "parentUid" : "5b1de5a2e1eba510c61e012610cb3281",
+        "status" : "broken",
+        "time" : {
+          "start" : 1663310706334,
+          "stop" : 1663310706353,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b1de5a2e1eba510c61e012610cb3281"
+    }, {
+      "name" : "16880-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "2daf5524b9aff97e",
+        "parentUid" : "26679aac50e958248ceeec7913f7e72e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649658668187,
+          "stop" : 1649658668240,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiampaaXp5SWxDdzZiVFNSRDZMSTBxdlB6NWZOdWpRMTMifQ.JtIZUNLDJ_4-fezygFmhvty85v7ZPBDfzt8sjv7XvQ8'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      } ],
+      "uid" : "26679aac50e958248ceeec7913f7e72e"
+    }, {
+      "name" : "22200-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "41e47068ec9a3aa8",
+        "parentUid" : "faf6b8a4214f29a848db4a75a0e9d37d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649748914049,
+          "stop" : 1649748914091,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiampaaXp5SWxDdzZiVFNSRDZMSTBxdlB6NWZOdWpRMTMifQ.JtIZUNLDJ_4-fezygFmhvty85v7ZPBDfzt8sjv7XvQ8'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      } ],
+      "uid" : "faf6b8a4214f29a848db4a75a0e9d37d"
+    }, {
+      "name" : "62300-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "a39484561aed4ba2",
+        "parentUid" : "1a40edbfbc19c8c6648928032cd718fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660038583423,
+          "stop" : 1660038611566,
+          "duration" : 28143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a40edbfbc19c8c6648928032cd718fb"
+    }, {
+      "name" : "11432-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "d3e27940b56c4931",
+        "parentUid" : "d5ed9cb25d0d9345d746711f25f7c26a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662020763465,
+          "stop" : 1662020788634,
+          "duration" : 25169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5ed9cb25d0d9345d746711f25f7c26a"
+    }, {
+      "name" : "3388-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "c6e10a1ec26396a0",
+        "parentUid" : "7ca697d7a55fee18f237681c2e1dca6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662025586143,
+          "stop" : 1662025611406,
+          "duration" : 25263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ca697d7a55fee18f237681c2e1dca6b"
+    }, {
+      "name" : "58756-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "aaa9b4a2c01f367b",
+        "parentUid" : "dd34f9c875d81f971abdae173019dd86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660022090099,
+          "stop" : 1660022118247,
+          "duration" : 28148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd34f9c875d81f971abdae173019dd86"
+    }, {
+      "name" : "31928-MainThread",
+      "children" : [ {
+        "name" : "test_01_login[data0]",
+        "uid" : "51e0e316be716803",
+        "parentUid" : "a64a9861981b9a4082d03ce48858f6b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656490191358,
+          "stop" : 1656490191603,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.159:8500/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}" ]
+      } ],
+      "uid" : "a64a9861981b9a4082d03ce48858f6b1"
+    }, {
+      "name" : "36580-MainThread",
+      "children" : [ {
+        "name" : "test_login1",
+        "uid" : "4ff59ad0a1c770",
+        "parentUid" : "69c915ce66fe1d6fa05feb1665aec878",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647845005335,
+          "stop" : 1647845016388,
+          "duration" : 11053
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "69c915ce66fe1d6fa05feb1665aec878"
+    }, {
+      "name" : "83092-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "c429532cc8ffd039",
+        "parentUid" : "b4991843f980d89fda2983fb39211aca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660037825018,
+          "stop" : 1660037853180,
+          "duration" : 28162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4991843f980d89fda2983fb39211aca"
+    }, {
+      "name" : "68380-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "accdae9d521c99d6",
+        "parentUid" : "cfbaec0b0e729befed27acd75aa0fd71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660025089223,
+          "stop" : 1660025115087,
+          "duration" : 25864
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cfbaec0b0e729befed27acd75aa0fd71"
+    }, {
+      "name" : "35472-MainThread",
+      "children" : [ {
+        "name" : "test_login2",
+        "uid" : "8e7ff5103b56684b",
+        "parentUid" : "e388db26aa27a533f46d8bcb18e7ff9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647845005335,
+          "stop" : 1647845038324,
+          "duration" : 32989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e388db26aa27a533f46d8bcb18e7ff9e"
+    }, {
+      "name" : "81708-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "476ebeab1f396a5a",
+        "parentUid" : "f5bd250c1dea4ac835269b513ca08689",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660024479517,
+          "stop" : 1660024507610,
+          "duration" : 28093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5bd250c1dea4ac835269b513ca08689"
+    }, {
+      "name" : "56524-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "f17d8398a16ffa7b",
+        "parentUid" : "ed9a6eaf704275384832d8ff16efeb0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663312757347,
+          "stop" : 1663312792833,
+          "duration" : 35486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed9a6eaf704275384832d8ff16efeb0c"
+    }, {
+      "name" : "19352-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "80ba71e44df1ff82",
+        "parentUid" : "fd98506651e655c8c13679e22929eaba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662020085438,
+          "stop" : 1662020108623,
+          "duration" : 23185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd98506651e655c8c13679e22929eaba"
+    }, {
+      "name" : "20396-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "5d3d5efffd558254",
+        "parentUid" : "5b1a3bb309d9fd7be78ecb35e2c549f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662617980564,
+          "stop" : 1662618008754,
+          "duration" : 28190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b1a3bb309d9fd7be78ecb35e2c549f4"
+    }, {
+      "name" : "12160-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_approval_jl",
+        "uid" : "5c4acdf13496950f",
+        "parentUid" : "b60f64f4bd223b639643a2fd5c2ab3f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662606934385,
+          "stop" : 1662606959510,
+          "duration" : 25125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b60f64f4bd223b639643a2fd5c2ab3f1"
+    }, {
+      "name" : "21080-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "eea5b940a2025d74",
+        "parentUid" : "30037e562dc37d56d0677184124dd85f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662026460770,
+          "stop" : 1662026494801,
+          "duration" : 34031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "30037e562dc37d56d0677184124dd85f"
+    }, {
+      "name" : "39120-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "99f8109e2b629e2e",
+        "parentUid" : "189747af4140e7d64909c5c381a369f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660025132479,
+          "stop" : 1660025158313,
+          "duration" : 25834
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "189747af4140e7d64909c5c381a369f9"
+    }, {
+      "name" : "17832-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "f84feed2224594c2",
+        "parentUid" : "d141b86890f51116b25e8b289e300a6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662019614598,
+          "stop" : 1662019643605,
+          "duration" : 29007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d141b86890f51116b25e8b289e300a6c"
+    }, {
+      "name" : "77460-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "59081b97a68e20b3",
+        "parentUid" : "ed96f5e06a8b59fb5c816d8be1b48b2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660035944605,
+          "stop" : 1660035972661,
+          "duration" : 28056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed96f5e06a8b59fb5c816d8be1b48b2d"
+    }, {
+      "name" : "31444-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "163db78bf10ea707",
+        "parentUid" : "84acd94ea007ccf54a1fd3264f2fbfa1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649658382667,
+          "stop" : 1649658382724,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiampaaXp5SWxDdzZiVFNSRDZMSTBxdlB6NWZOdWpRMTMifQ.JtIZUNLDJ_4-fezygFmhvty85v7ZPBDfzt8sjv7XvQ8'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      } ],
+      "uid" : "84acd94ea007ccf54a1fd3264f2fbfa1"
+    }, {
+      "name" : "35480-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "90355a5197ccf260",
+        "parentUid" : "87820f22a01d30f8821889cb516deb36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662619259641,
+          "stop" : 1662619289857,
+          "duration" : 30216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87820f22a01d30f8821889cb516deb36"
+    }, {
+      "name" : "24344-MainThread",
+      "children" : [ {
+        "name" : "test_personnel_query[data0]",
+        "uid" : "426260394707b799",
+        "parentUid" : "30b1cdcd7f5c6995f4fe5c5aaeaa4afb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649748948595,
+          "stop" : 1649748948716,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoieW9EQjRoMzhMWk9hRkNGcktZNGJwR3FvTkhHODdUWUIifQ.N_U6aoKZ41n8EJ6wj4zyTEALmsNR5R2V0oLkC8itdCk'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+      } ],
+      "uid" : "30b1cdcd7f5c6995f4fe5c5aaeaa4afb"
+    }, {
+      "name" : "76728-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "64c41e89ea8af8bf",
+        "parentUid" : "58969cccf23168d506300a14dc1c4c51",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659686272619,
+          "stop" : 1659686279871,
+          "duration" : 7252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58969cccf23168d506300a14dc1c4c51"
+    }, {
+      "name" : "82612-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "dd8bc375dc6585b9",
+        "parentUid" : "09812ed754b3d940af1b56bb79acdbc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660037167076,
+          "stop" : 1660037195166,
+          "duration" : 28090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09812ed754b3d940af1b56bb79acdbc8"
+    }, {
+      "name" : "78832-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "974762f67b12505e",
+        "parentUid" : "f5b6af67caea47e01a8359eb080ac7e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660025871184,
+          "stop" : 1660025899300,
+          "duration" : 28116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5b6af67caea47e01a8359eb080ac7e2"
+    }, {
+      "name" : "54504-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "320c04ba7148f62c",
+        "parentUid" : "260e2e826f13ce40c9b396ac42af341e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659687684452,
+          "stop" : 1659687690596,
+          "duration" : 6144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "260e2e826f13ce40c9b396ac42af341e"
+    }, {
+      "name" : "71476-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "d14c07dff8aa63f5",
+        "parentUid" : "0d961c82d669fdb80e9454c2a64f373f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659952169314,
+          "stop" : 1659952197462,
+          "duration" : 28148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d961c82d669fdb80e9454c2a64f373f"
+    }, {
+      "name" : "13660-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "73280cf1ae66585f",
+        "parentUid" : "a6b0de3353de245e5fbe4e9557c29060",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663312242658,
+          "stop" : 1663312278166,
+          "duration" : 35508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6b0de3353de245e5fbe4e9557c29060"
+    }, {
+      "name" : "20952-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "c1f13b043a12f12",
+        "parentUid" : "9ee7955f5b091eac8e0cc1637b569e59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662024623959,
+          "stop" : 1662024647483,
+          "duration" : 23524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ee7955f5b091eac8e0cc1637b569e59"
+    }, {
+      "name" : "18544-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "2a601af94ba3999e",
+        "parentUid" : "bc7af576e806fbae33f9cbf99a6b5559",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662020521640,
+          "stop" : 1662020547855,
+          "duration" : 26215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc7af576e806fbae33f9cbf99a6b5559"
+    }, {
+      "name" : "56056-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "9f486e937e7d27f8",
+        "parentUid" : "f5f2db6443e0b765d53b6bf8219f00a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663313980605,
+          "stop" : 1663314013213,
+          "duration" : 32608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 23,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5f2db6443e0b765d53b6bf8219f00a6"
+    }, {
+      "name" : "83912-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "1364043cc36c0620",
+        "parentUid" : "2107437fdf91691649c349d69e8cb64b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660036618845,
+          "stop" : 1660036644650,
+          "duration" : 25805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2107437fdf91691649c349d69e8cb64b"
+    }, {
+      "name" : "7852-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "c08a7826027b6abf",
+        "parentUid" : "848f93511d38c5bfe9b228448544e37c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662544139712,
+          "stop" : 1662544175967,
+          "duration" : 36255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "848f93511d38c5bfe9b228448544e37c"
+    }, {
+      "name" : "44272-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform_add",
+        "uid" : "7598ce5e65f765e2",
+        "parentUid" : "7f51cb2e2044ca0e7fc3a6283a58a290",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663312158673,
+          "stop" : 1663312198251,
+          "duration" : 39578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f51cb2e2044ca0e7fc3a6283a58a290"
+    }, {
+      "name" : "21824-MainThread",
+      "children" : [ {
+        "name" : "test_dq_material_platform",
+        "uid" : "4f44cd136df0edd7",
+        "parentUid" : "f0f8453e3a2d7babaee8322a0434553f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662020425883,
+          "stop" : 1662020449016,
+          "duration" : 23133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0f8453e3a2d7babaee8322a0434553f"
+    }, {
+      "name" : "16160-MainThread",
+      "children" : [ {
+        "name" : "test_login_duo",
+        "uid" : "72a955c42202d1eb",
+        "parentUid" : "8c947b2e28534f739558b1f967826867",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647845005335,
+          "stop" : 1647845026197,
+          "duration" : 20862
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8c947b2e28534f739558b1f967826867"
     } ],
     "uid" : "da22b56f0e47a91ab3f1c711dfbee3ad"
   } ]

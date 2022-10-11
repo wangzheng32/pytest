@@ -22,7 +22,7 @@ def test_personnel_query(data):
     url = request['url']
     vales = request["params"]
     headers = request["headers"]
-    headers['Authorization'] = headers['Authorization'] + " " + yaml_until.read_extract_yaml("token")
+    headers['Authorization'] = headers['Authorization'] + yaml_until.read_extract_yaml("token")
     headers['Cookie'] = headers['Cookie'] + yaml_until.read_extract_yaml("token")
 
     # res = requests.get(url=url, params=vales, headers=headers)

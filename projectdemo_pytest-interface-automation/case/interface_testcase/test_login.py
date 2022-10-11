@@ -52,11 +52,11 @@ def test_01_login(data):
         assert vales_token is not data['eq'], "登录失败！"
 
 
-@allure.feature("登录 或 退出登录")
-@allure.story("退出登录")
-def test_loginout():
-    """
-    用例描述：退出登录
-    :return:
-    """
-    print("退出登录")
+# @allure.feature("登录 或 退出登录")
+# @allure.story("退出登录")
+# def test_loginout():
+#     """
+#     用例描述：退出登录
+#     :return:
+#     """
+#     print("退出登录")

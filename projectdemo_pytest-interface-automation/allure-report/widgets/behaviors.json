@@ -1,4 +1,26 @@
 {
-  "total" : 3,
-  "items" : [ ]
+  "total" : 12,
+  "items" : [ {
+    "uid" : "aab12a20ad9b3028ea817cb20b145c23",
+    "name" : "登录 获取token",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e7e73a76532663c49cc0668fd83b363c",
+    "name" : "插入数据接口",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }

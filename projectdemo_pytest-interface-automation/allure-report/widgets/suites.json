@@ -1,8 +1,19 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
-    "uid" : "c8d6c8117517219f88013747bddbb8d4",
-    "name" : "webui_testcase",
+    "uid" : "5386c9c70997b4d3726694fa14047f8b",
+    "name" : "case.webui_testcase",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "454a48ff62fed077c2ff30a749fc12f0",
+    "name" : "case.interface_testcase",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

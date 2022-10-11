@@ -2,59 +2,257 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "webui_testcase.webui_test_demo1",
+    "name" : "case",
     "children" : [ {
-      "name" : "test_login2",
-      "uid" : "5b0467337a61d475",
-      "parentUid" : "f5667b5aab4817ab4d615b926ea422eb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647620529280,
-        "stop" : 1647620563412,
-        "duration" : 34132
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
+      "name" : "webui_testcase",
+      "children" : [ {
+        "name" : "webui_test_demo1",
+        "children" : [ {
+          "name" : "test_login2",
+          "uid" : "8e7ff5103b56684b",
+          "parentUid" : "380b5e8c21c116440d1c8171d98be94f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647845005335,
+            "stop" : 1647845038324,
+            "duration" : 32989
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_login1",
+          "uid" : "4ff59ad0a1c770",
+          "parentUid" : "380b5e8c21c116440d1c8171d98be94f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647845005335,
+            "stop" : 1647845016388,
+            "duration" : 11053
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_login_duo",
+          "uid" : "5b35fa75897ce53b",
+          "parentUid" : "380b5e8c21c116440d1c8171d98be94f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1660094584708,
+            "stop" : 1660094612832,
+            "duration" : 28124
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 29,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "380b5e8c21c116440d1c8171d98be94f"
+      }, {
+        "name" : "webui_Material_Platform",
+        "children" : [ {
+          "name" : "test_dq_material_platform",
+          "uid" : "c08a7826027b6abf",
+          "parentUid" : "0441e6630572559e1c31c5973ef7a3b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1662544139712,
+            "stop" : 1662544175967,
+            "duration" : 36255
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 15,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_dq_material_platform_approval_jl",
+          "uid" : "12a70254085bd199",
+          "parentUid" : "0441e6630572559e1c31c5973ef7a3b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1662613950844,
+            "stop" : 1662613976244,
+            "duration" : 25400
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_1",
+          "uid" : "a189d70136acccf9",
+          "parentUid" : "0441e6630572559e1c31c5973ef7a3b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1662621917216,
+            "stop" : 1662621917216,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 6,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_2",
+          "uid" : "42731b259be5a733",
+          "parentUid" : "0441e6630572559e1c31c5973ef7a3b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1662621917218,
+            "stop" : 1662621917218,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 6,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_3",
+          "uid" : "88f9572671baa222",
+          "parentUid" : "0441e6630572559e1c31c5973ef7a3b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1662621917221,
+            "stop" : 1662621917221,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 6,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_dq_material_platform_add",
+          "uid" : "9f486e937e7d27f8",
+          "parentUid" : "0441e6630572559e1c31c5973ef7a3b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1663313980605,
+            "stop" : 1663314013213,
+            "duration" : 32608
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 23,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_dq_material_platform_approval",
+          "uid" : "8a0d5f08638bddd2",
+          "parentUid" : "0441e6630572559e1c31c5973ef7a3b7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1663315086092,
+            "stop" : 1663315213602,
+            "duration" : 127510
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 18,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0441e6630572559e1c31c5973ef7a3b7"
+      } ],
+      "uid" : "16a03cca40a6087d78a3380177700872"
     }, {
-      "name" : "test_login1",
-      "uid" : "28229d137ec8f75",
-      "parentUid" : "f5667b5aab4817ab4d615b926ea422eb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647620529280,
-        "stop" : 1647620541026,
-        "duration" : 11746
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_login_duo",
-      "uid" : "9904dbc2519d2fc7",
-      "parentUid" : "f5667b5aab4817ab4d615b926ea422eb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647620529280,
-        "stop" : 1647620550201,
-        "duration" : 20921
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
+      "name" : "interface_testcase",
+      "children" : [ {
+        "name" : "zhgd_a_login",
+        "children" : [ {
+          "name" : "test_01_login[data0]",
+          "uid" : "1567a85ade9e0d33",
+          "parentUid" : "2cc2031cdefb9a7317708fa9ef519da0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649750376937,
+            "stop" : 1649750377169,
+            "duration" : 232
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 5,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.160:7800/prod-api/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}" ]
+        } ],
+        "uid" : "2cc2031cdefb9a7317708fa9ef519da0"
+      }, {
+        "name" : "zhgd_into_data",
+        "children" : [ {
+          "name" : "test_personnel_query[data0]",
+          "uid" : "e604d0aefe47732b",
+          "parentUid" : "187f7da220f523ea092bb918d8ab8a21",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649750377178,
+            "stop" : 1649750377240,
+            "duration" : 62
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 13,
+          "retriesStatusChange" : true,
+          "parameters" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+        } ],
+        "uid" : "187f7da220f523ea092bb918d8ab8a21"
+      }, {
+        "name" : "rto_login",
+        "children" : [ {
+          "name" : "test_01_login[data0]",
+          "uid" : "d2640e1294c2a3cb",
+          "parentUid" : "9a57ed8cc499427d1a7443be189a6c0f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656496307101,
+            "stop" : 1656496307638,
+            "duration" : 537
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.159:8500/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}" ]
+        } ],
+        "uid" : "9a57ed8cc499427d1a7443be189a6c0f"
+      } ],
+      "uid" : "817c690f7f67d144a40a7fba387d265a"
     } ],
-    "uid" : "webui_testcase.webui_test_demo1"
+    "uid" : "3a5ff917f72cbd03b2a2ff2549394ef0"
   } ]
 }

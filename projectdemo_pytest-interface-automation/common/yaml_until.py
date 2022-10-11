@@ -18,12 +18,14 @@ def read_extract_yaml(key):
 
 # 写入参数化yaml文件,mode="a"表示追加的方式写入
 def wite_yaml(data):
+    ''' 将关联参数写入文件 '''
     file = open("./extract_data.yaml", encoding="utf-8", mode="a")
     yaml.dump(data, stream=file, allow_unicode=True)
 
 
 # 清空参数化yaml文件
 def clear_yaml():
+    ''' 将关联参数的文件清空 '''
     with open("./extract_data.yaml", encoding="utf-8", mode="w") as f:
         f.truncate()
 

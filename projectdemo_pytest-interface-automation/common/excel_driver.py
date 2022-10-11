@@ -8,6 +8,7 @@
 import json
 import openpyxl
 from common.web_key import Key
+from common.loggerController import log
 
 
 # 读取excel的数据
@@ -46,22 +47,23 @@ def read_excel(path):
                 # 将每个sheet页的数据列表赋值到sheet页字典的value中
                 sh_key[name] = dict_key
     data = json.dumps(sh_key)
-    print("json数据格式data:", data)
+    log.info("json数据格式data:{}".format(data))
+
     return data
 
 
 # 具体执行excel测试用例
 def implement_case(data):
     data = json.loads(data)
-    print(data)
+    log.info("excel用例数据:{}".format(data))
     # 遍历每个sheet页面数据
     for key in data:
         # print(key)     # key:sheet页的名字
         # print(data[key])        # data[key]:列表格式的用例执行步骤  --- [{步骤一数据},{步骤二数据}]   ---步骤数据的格式：{key:{参数},describe:描述}
-        print("")
-        print("******正在执行WebUi:{}*******".format(key))
+        log.info("正在执行WebUi:{}".format(key))
         # 遍历每个步骤
-        for sheet_key in data[key]:  # sheet_key:步骤数据:dict      cel_value:步骤数据的key
+        for sheet_key in data[key]:
+            # sheet_key:步骤数据:dict      cel_value:步骤数据的key
             # 将步骤描述赋值给describe
             describe = sheet_key["describe"]
             del sheet_key["describe"]
@@ -74,10 +76,10 @@ def implement_case(data):
                 else:
                     try:
                         getattr(key_value, cel_value)(**sheet_value)
-                        print("Message:执行 {}--SUCCESS".format(describe))
+                        log.info("Message:执行 {}--SUCCESS--数据{}".format(describe, sheet_value))
                     except Exception as e:
-                        print("Message:执行 {}>>>>FAIL".format(describe))
-                        print(e)
+                        log.critical("Message:执行 {}--FAIL".format(describe))
+                        log.critical("报错:{}".format(e))
 
 
 '''
