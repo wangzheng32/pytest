@@ -1,0 +1,18 @@
+-
+  name: 插入数据
+  request:
+    url: http://172.1.0.160:8080/system/scheduleUnitPro
+    method: post
+    params:
+      projectCode: qqqqooooooossssssssssdd5555
+      projectName: 桩基
+      projectUnit: 根
+      projectNum: 52
+      projectCompleteNum: 0
+      sort: 0
+    headers:
+      Content-Type: application/json; charset=UTF-8
+      Authorization: Bearer
+  eq:
+    code: 200
+    msg: 操作成功
