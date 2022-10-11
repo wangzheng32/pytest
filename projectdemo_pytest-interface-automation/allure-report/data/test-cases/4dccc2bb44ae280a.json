@@ -1,0 +1,100 @@
+{
+  "uid" : "4dccc2bb44ae280a",
+  "name" : "test_2",
+  "fullName" : "case.webui_testcase.webui_Material_Platform#test_2",
+  "historyId" : "f11bcbfb2d1762d84ac137fb70c29719",
+  "time" : {
+    "start" : 1662621842926,
+    "stop" : 1662621842926,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "execute_database_sql",
+    "time" : {
+      "start" : 1662621842923,
+      "stop" : 1662621842923,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1662621842926,
+      "stop" : 1662621842926,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "execute_database_sql::0",
+    "time" : {
+      "start" : 1662621842929,
+      "stop" : 1662621842929,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case.webui_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "webui_Material_Platform"
+  }, {
+    "name" : "host",
+    "value" : "PC-wz"
+  }, {
+    "name" : "thread",
+    "value" : "15056-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.webui_testcase.webui_Material_Platform"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4dccc2bb44ae280a.json",
+  "parameterValues" : [ ]
+}

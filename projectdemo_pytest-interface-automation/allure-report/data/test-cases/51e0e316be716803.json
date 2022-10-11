@@ -1,0 +1,99 @@
+{
+  "uid" : "51e0e316be716803",
+  "name" : "test_01_login[data0]",
+  "fullName" : "case.interface_testcase.rto_login#test_01_login",
+  "historyId" : "2cc8e0b479677395c4418b578eed0caf",
+  "time" : {
+    "start" : 1656490191358,
+    "stop" : 1656490191603,
+    "duration" : 245
+  },
+  "description" : "\n    用例描述：登录接口/获取token\n    :param data:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：登录接口/获取token\n:param data:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "execute_database_sql",
+    "time" : {
+      "start" : 1656490191356,
+      "stop" : 1656490191356,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "execute_database_sql::0",
+    "time" : {
+      "start" : 1656490191610,
+      "stop" : 1656490191610,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录 获取token"
+  }, {
+    "name" : "story",
+    "value" : "登录/获取token"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.interface_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "rto_login"
+  }, {
+    "name" : "host",
+    "value" : "PC-wz"
+  }, {
+    "name" : "thread",
+    "value" : "31928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.interface_testcase.rto_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.159:8500/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "51e0e316be716803.json",
+  "parameterValues" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.159:8500/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}" ]
+}

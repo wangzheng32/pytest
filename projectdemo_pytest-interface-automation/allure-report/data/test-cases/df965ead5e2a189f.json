@@ -1,0 +1,99 @@
+{
+  "uid" : "df965ead5e2a189f",
+  "name" : "test_01_login[data0]",
+  "fullName" : "case.interface_testcase.zhgd_a_login#test_01_login",
+  "historyId" : "52571096fd6939bf8ef8f873f3b5adef",
+  "time" : {
+    "start" : 1649750117829,
+    "stop" : 1649750118067,
+    "duration" : 238
+  },
+  "description" : "\n    用例描述：登录接口/获取token\n    :param data:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：登录接口/获取token\n:param data:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "execute_database_sql",
+    "time" : {
+      "start" : 1649750117828,
+      "stop" : 1649750117829,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "execute_database_sql::0",
+    "time" : {
+      "start" : 1649750118206,
+      "stop" : 1649750118206,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录/获取token"
+  }, {
+    "name" : "feature",
+    "value" : "登录 获取token"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.interface_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "zhgd_a_login"
+  }, {
+    "name" : "host",
+    "value" : "PC-wz"
+  }, {
+    "name" : "thread",
+    "value" : "36932-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.interface_testcase.zhgd_a_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.160:7800/prod-api/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "df965ead5e2a189f.json",
+  "parameterValues" : [ "{'name': '登录成功的用例', 'request': {'url': 'http://172.1.0.160:7800/prod-api/login', 'method': 'post', 'params': {'username': 'admin', 'password': 'admin123'}, 'headers': {'Content-Type': 'application/json'}}, 'eq': 'None'}" ]
+}

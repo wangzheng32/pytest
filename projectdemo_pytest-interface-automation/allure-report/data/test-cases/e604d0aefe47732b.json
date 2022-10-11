@@ -1,0 +1,213 @@
+{
+  "uid" : "e604d0aefe47732b",
+  "name" : "test_personnel_query[data0]",
+  "fullName" : "case.interface_testcase.zhgd_into_data#test_personnel_query",
+  "historyId" : "4e5f65dc373a47722dc94ecadeb329b9",
+  "time" : {
+    "start" : 1649750377178,
+    "stop" : 1649750377240,
+    "duration" : 62
+  },
+  "description" : "\n    用例描述：插入数据\n    :param data:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：插入数据\n:param data:\n:return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "execute_database_sql",
+    "time" : {
+      "start" : 1649750376937,
+      "stop" : 1649750376937,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "execute_database_sql::0",
+    "time" : {
+      "start" : 1649750377240,
+      "stop" : 1649750377240,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "插入数据"
+  }, {
+    "name" : "feature",
+    "value" : "插入数据接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.interface_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "zhgd_into_data"
+  }, {
+    "name" : "host",
+    "value" : "PC-wz"
+  }, {
+    "name" : "thread",
+    "value" : "22296-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.interface_testcase.zhgd_into_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer'}}, 'eq': {'code': 200, 'msg': '操作成功'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a70899c430419893",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649750222549,
+        "stop" : 1649750222607,
+        "duration" : 58
+      }
+    }, {
+      "uid" : "304734c6008cccf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert '认证失败，无法访问系统资源' == '操作成功'\n  - 操作成功\n  + 认证失败，无法访问系统资源",
+      "time" : {
+        "start" : 1649750201279,
+        "stop" : 1649750201297,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "c417393658475aac",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert '认证失败，无法访问系统资源' == '操作成功'\n  - 操作成功\n  + 认证失败，无法访问系统资源",
+      "time" : {
+        "start" : 1649750180110,
+        "stop" : 1649750180125,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "6819f10edc882c46",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert '认证失败，无法访问系统资源' == '操作成功'\n  - 操作成功\n  + 认证失败，无法访问系统资源",
+      "time" : {
+        "start" : 1649750118069,
+        "stop" : 1649750118084,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "e85383731a80510b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"bool\") to str",
+      "time" : {
+        "start" : 1649750033901,
+        "stop" : 1649750033902,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "426260394707b799",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649748948595,
+        "stop" : 1649748948716,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "41e47068ec9a3aa8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert '认证失败，无法访问系统资源' == '操作成功'\n  - 操作成功\n  + 认证失败，无法访问系统资源",
+      "time" : {
+        "start" : 1649748914049,
+        "stop" : 1649748914091,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "4e4da40bff84c173",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert '认证失败，无法访问系统资源' == '操作成功'\n  - 操作成功\n  + 认证失败，无法访问系统资源",
+      "time" : {
+        "start" : 1649748879928,
+        "stop" : 1649748879952,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "426f297dc7981f69",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert False == '操作成功'\n  +False\n  -'操作成功'",
+      "time" : {
+        "start" : 1649659278039,
+        "stop" : 1649659278140,
+        "duration" : 101
+      }
+    }, {
+      "uid" : "2daf5524b9aff97e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert False == '操作成功'\n  +False\n  -'操作成功'",
+      "time" : {
+        "start" : 1649658668187,
+        "stop" : 1649658668240,
+        "duration" : 53
+      }
+    }, {
+      "uid" : "d22179d47f8b3d6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert 'Required req...uleUnitProBo)' == '操作成功'\n  - 操作成功\n  + Required request body is missing: public com.railway.common.core.domain.R<java.lang.Void> com.railway.web.controller.business.RwScheduleUnitProController.add(com.railway.business.domain.bo.schedule.RwScheduleUnitProBo)",
+      "time" : {
+        "start" : 1649658435680,
+        "stop" : 1649658435756,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "163db78bf10ea707",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert False == '操作成功'\n  +False\n  -'操作成功'",
+      "time" : {
+        "start" : 1649658382667,
+        "stop" : 1649658382724,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "d8103bf828d3cde",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录失败！\nassert False == '操作成功'\n  +False\n  -'操作成功'",
+      "time" : {
+        "start" : 1649658116532,
+        "stop" : 1649658116610,
+        "duration" : 78
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e604d0aefe47732b.json",
+  "parameterValues" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+}

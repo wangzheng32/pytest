@@ -1,0 +1,256 @@
+{
+  "uid" : "8a0d5f08638bddd2",
+  "name" : "test_dq_material_platform_approval",
+  "fullName" : "case.webui_testcase.webui_Material_Platform#test_dq_material_platform_approval",
+  "historyId" : "688197c199f7141d0ae1311b41c550b0",
+  "time" : {
+    "start" : 1663315086092,
+    "stop" : 1663315213602,
+    "duration" : 127510
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 18,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1663315086091,
+      "stop" : 1663315086091,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "execute_database_sql",
+    "time" : {
+      "start" : 1663315086091,
+      "stop" : 1663315086091,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "execute_database_sql::0",
+    "time" : {
+      "start" : 1663315213604,
+      "stop" : 1663315213604,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case.webui_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "webui_Material_Platform"
+  }, {
+    "name" : "host",
+    "value" : "PC-wz"
+  }, {
+    "name" : "thread",
+    "value" : "48684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.webui_testcase.webui_Material_Platform"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cfdfc869f9c38c20",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1663314192767,
+        "stop" : 1663314192787,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "204f43040d96fbed",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1663311415270,
+        "stop" : 1663311415290,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "53e54ef4581b6a8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1663311076723,
+        "stop" : 1663311076742,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "3e196107ca60e7ff",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1663310987733,
+        "stop" : 1663310987753,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "be72a769d7820659",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1663310870816,
+        "stop" : 1663310870835,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "589022a1172654d3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1663310706334,
+        "stop" : 1663310706353,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "657b02d564421370",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1663310442062,
+        "stop" : 1663310442081,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "89dd28a32aba25f9",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1663310320211,
+        "stop" : 1663310320230,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "77a08a6fe02c1abf",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1663309225727,
+        "stop" : 1663309225746,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "26dc4ffa8505828f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663138988702,
+        "stop" : 1663139065669,
+        "duration" : 76967
+      }
+    }, {
+      "uid" : "6c03504c6bd7a1a8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: quit() missing 1 required positional argument: 'self'",
+      "time" : {
+        "start" : 1663138864473,
+        "stop" : 1663138864473,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "114b4c5cd2f8b702",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663037139445,
+        "stop" : 1663037216719,
+        "duration" : 77274
+      }
+    }, {
+      "uid" : "24e202007c98baa3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663031676008,
+        "stop" : 1663031753078,
+        "duration" : 77070
+      }
+    }, {
+      "uid" : "f6e1c2e9b00a0099",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662620490071,
+        "stop" : 1662620566030,
+        "duration" : 75959
+      }
+    }, {
+      "uid" : "822c1a947eb0726e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662620332927,
+        "stop" : 1662620408767,
+        "duration" : 75840
+      }
+    }, {
+      "uid" : "ed451c9f35c9355c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662619546963,
+        "stop" : 1662619622924,
+        "duration" : 75961
+      }
+    }, {
+      "uid" : "1c84ca6453f0fec7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662618544218,
+        "stop" : 1662618620177,
+        "duration" : 75959
+      }
+    }, {
+      "uid" : "4d78ee0ea62140e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662617178420,
+        "stop" : 1662617256509,
+        "duration" : 78089
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a0d5f08638bddd2.json",
+  "parameterValues" : [ ]
+}

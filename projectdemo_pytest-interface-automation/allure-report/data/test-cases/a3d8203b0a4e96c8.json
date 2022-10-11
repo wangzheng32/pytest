@@ -1,0 +1,55 @@
+{
+  "uid" : "a3d8203b0a4e96c8",
+  "name" : "test_dq_material_platform",
+  "fullName" : "case.webui_testcase.webui_Material_Platform#test_dq_material_platform",
+  "historyId" : "20ac18138aef36588b22ec2c66723b98",
+  "time" : {
+    "start" : 1662025209198,
+    "stop" : 1662025232382,
+    "duration" : 23184
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case.webui_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "webui_Material_Platform"
+  }, {
+    "name" : "host",
+    "value" : "PC-wz"
+  }, {
+    "name" : "thread",
+    "value" : "23060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.webui_testcase.webui_Material_Platform"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3d8203b0a4e96c8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,98 @@
+{
+  "uid" : "2daf5524b9aff97e",
+  "name" : "test_personnel_query[data0]",
+  "fullName" : "case.interface_testcase.zhgd_into_data#test_personnel_query",
+  "historyId" : "4e5f65dc373a47722dc94ecadeb329b9",
+  "time" : {
+    "start" : 1649658668187,
+    "stop" : 1649658668240,
+    "duration" : 53
+  },
+  "description" : "\n    用例描述：插入数据\n    :param data:\n    :return:\n    ",
+  "descriptionHtml" : "<pre><code>用例描述：插入数据\n:param data:\n:return:\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 登录失败！\nassert False == '操作成功'\n  +False\n  -'操作成功'",
+  "statusTrace" : "data = {'eq': {'code': 200, 'msg': '操作成功'}, 'name': '插入数据', 'request': {'headers': {'Authorization': 'Bearer eyJ0eXAiOiJKV1Qi...CompleteNum': 0, 'projectName': '桩基', 'projectNum': 52, ...}, 'url': 'http://172.1.0.160:8080/system/scheduleUnitPro'}}\n\n    @allure.feature(\"插入数据接口\")\n    @allure.story(\"插入数据\")\n    # @pytest.mark.parametrize('data', YamlUntil(\"./data/interface_Project_query.yaml\").read_yaml())\n    @pytest.mark.parametrize('data', yaml_until.load_yaml(\"./data/Yaml/zhgd_intodata.yaml\"))\n    def test_personnel_query(data):\n        \"\"\"\n        用例描述：插入数据\n        :param data:\n        :return:\n        \"\"\"\n    \n        request = data['request']\n        method = request['method']\n        url = request['url']\n        vales = request[\"params\"]\n        headers = request[\"headers\"]\n        # headers['Authorization'] = headers['Authorization'] + \" \" + yaml_until.read_extract_yaml(\"token\")\n        # headers['Cookie'] = headers['Cookie'] + yaml_until.read_extract_yaml(\"token\")\n    \n        # res = requests.get(url=url, params=vales, headers=headers)\n        # res = session.request(\"get\", url=url, params=vales, headers=headers)\n        res = ak.send_request(method, url=url, data=vales, headers=headers)\n        print(res.text)\n        print(res.reason)\n    \n        # vales_json = json.loads(res.text)\n        vales_json = ak.get_text(res.text, 'msg')\n        # assert vales_json['msg'] == data['eq']['msg'], \"登录失败！\"\n>       assert vales_json == data['eq']['msg'], \"登录失败！\"\nE       AssertionError: 登录失败！\nE       assert False == '操作成功'\nE         +False\nE         -'操作成功'\n\ncase\\interface_testcase\\zhgd_into_data.py:37: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "execute_database_sql",
+    "time" : {
+      "start" : 1649658668186,
+      "stop" : 1649658668186,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "execute_database_sql::0",
+    "time" : {
+      "start" : 1649658668353,
+      "stop" : 1649658668353,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "插入数据"
+  }, {
+    "name" : "feature",
+    "value" : "插入数据接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.interface_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "zhgd_into_data"
+  }, {
+    "name" : "host",
+    "value" : "PC-wz"
+  }, {
+    "name" : "thread",
+    "value" : "16880-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.interface_testcase.zhgd_into_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiampaaXp5SWxDdzZiVFNSRDZMSTBxdlB6NWZOdWpRMTMifQ.JtIZUNLDJ_4-fezygFmhvty85v7ZPBDfzt8sjv7XvQ8'}}, 'eq': {'code': 200, 'msg': '操作成功'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2daf5524b9aff97e.json",
+  "parameterValues" : [ "{'name': '插入数据', 'request': {'url': 'http://172.1.0.160:8080/system/scheduleUnitPro', 'method': 'post', 'params': {'projectCode': 'qqqqooooooossssssssssdd5555', 'projectName': '桩基', 'projectUnit': '根', 'projectNum': 52, 'projectCompleteNum': 0, 'sort': 0}, 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbklkIjoic3lzX3VzZXI6MSIsInJuIjoiampaaXp5SWxDdzZiVFNSRDZMSTBxdlB6NWZOdWpRMTMifQ.JtIZUNLDJ_4-fezygFmhvty85v7ZPBDfzt8sjv7XvQ8'}}, 'eq': {'code': 200, 'msg': '操作成功'}}" ]
+}
